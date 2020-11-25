@@ -1,0 +1,158 @@
+[DEBUG] 22:04:55:780 Team/(27728:27728): 1. Finaliza creación de config y logger
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Comienza lectura de config de broker
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Se leyó el puerto: 6009
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Finaliza lectura de config de broker
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Comienza lectura de config de teamAttr
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Se leyó el puerto: 5002
+[DEBUG] 22:04:55:780 Team/(27728:27728): 2. Finaliza lectura de config de teamAttr
+[DEBUG] 22:04:55:780 Team/(27728:27728): 3. Comienza lectura de config de scheduler
+[DEBUG] 22:04:55:780 Team/(27728:27728): 3. No se reconoce el algoritmo de planificación RR
+[DEBUG] 22:04:55:780 Team/(27728:27728): 3. Se leyó el quantum: 1
+[DEBUG] 22:04:55:780 Team/(27728:27728): 3. Se leyó la estimación inicial: 5
+[DEBUG] 22:04:55:780 Team/(27728:27728): 3. Finaliza lectura de config de scheduler
+[DEBUG] 22:04:55:780 Team/(27728:27728): alpha valor 0.500000
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4. Comienza lectura de parámetros de entrenador
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4. Finalizó la carga de config de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4. Se alocó memoria para el array de parametros de entrenadore
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4. Comienza el proceso de carga de atributos en struc
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4.1. Comienza el proceso de carga de posición de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4.1. Finaliza el proceso de carga de posición de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4.2. Comienza el proceso de carga de pokemons de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4.3. Comienza el proceso de carga de objetivos de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4.3. Finaliza el proceso de carga de objetivos de entrenadores
+[DEBUG] 22:04:55:780 Team/(27728:27728): 4. Finalizó el proceso de carga de atributos
+[DEBUG] 22:04:55:780 Team/(27728:27728): valor del count 5
+[DEBUG] 22:04:55:780 Team/(27728:27728): 5.Comienza el proceso de creación de threads
+[DEBUG] 22:04:55:780 Team/(27728:27728): Creando el entrenador 0
+[DEBUG] 22:04:55:780 Team/(27728:27728): 5. Se creó un entrenador
+[DEBUG] 22:04:55:780 Team/(27728:27728): Creando el entrenador 1
+[DEBUG] 22:04:55:781 Team/(27728:27728): 5. Se creó un entrenador
+[DEBUG] 22:04:55:781 Team/(27728:27728): Creando el entrenador 2
+[DEBUG] 22:04:55:781 Team/(27728:27728): 5. Se creó un entrenador
+[DEBUG] 22:04:55:781 Team/(27728:27728): Creando el entrenador 3
+[DEBUG] 22:04:55:781 Team/(27728:27728): 5. Se creó un entrenador
+[DEBUG] 22:04:55:781 Team/(27728:27728): Creando el entrenador 4
+[DEBUG] 22:04:55:781 Team/(27728:27728): 5. Se creó un entrenador
+[DEBUG] 22:04:55:781 Team/(27728:27728): 5. Terminó el proceso de creación de threads
+[DEBUG] 22:04:55:781 Team/(27728:27735): Creando thread Caught Subscriptions Handler
+[DEBUG] 22:04:55:781 Team/(27728:27735): IP y puerto configurado
+[DEBUG] 22:04:55:781 Team/(27728:27735): Socket configurado
+[DEBUG] 22:04:55:781 Team/(27728:27735): Se intentará conectar con Broker
+[DEBUG] 22:04:55:781 Team/(27728:27735): La conexión fue realizada
+[DEBUG] 22:04:55:781 Team/(27728:27735): Se subscribió a Caught
+[DEBUG] 22:04:58:782 Team/(27728:27739): Creando thread Appeared Subscriptions Handler
+[DEBUG] 22:04:58:782 Team/(27728:27739): IP y puerto configurado
+[DEBUG] 22:04:58:782 Team/(27728:27739): Socket configurado
+[DEBUG] 22:04:58:782 Team/(27728:27739): Se intentará conectar con Broker
+[DEBUG] 22:04:58:782 Team/(27728:27739): La conexión fue realizada
+[DEBUG] 22:04:58:782 Team/(27728:27739): Se subscribió a Appeared
+[DEBUG] 22:05:01:788 Team/(27728:27749): Creando thread Localized Subscriptions Handler
+[DEBUG] 22:05:01:788 Team/(27728:27749): IP y puerto configurado
+[DEBUG] 22:05:01:788 Team/(27728:27749): Socket configurado
+[DEBUG] 22:05:01:788 Team/(27728:27749): Se intentará conectar con Broker
+[DEBUG] 22:05:01:788 Team/(27728:27749): La conexión fue realizada
+[DEBUG] 22:05:01:788 Team/(27728:27749): Se subscribió a Localized
+[INFO] 22:05:01:789 Team/(27728:27754): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Gengar, cantidad de ubicaciones: 0, correlation id: 8
+[DEBUG] 22:05:01:789 Team/(27728:27754): Se procesó el mensaje
+[INFO] 22:05:01:789 Team/(27728:27756): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Squirtle, cantidad de ubicaciones: 1, correlation id: 7
+[DEBUG] 22:05:01:789 Team/(27728:27756): Se procesó el mensaje
+[DEBUG] 22:05:04:788 Team/(27728:27728): Se solicitarán 5 pokemons
+[DEBUG] 22:05:04:788 Team/(27728:27728): Se solicitará el pokemon Vaporeon
+[DEBUG] 22:05:04:788 Team/(27728:27728): IP y puerto configurado
+[DEBUG] 22:05:04:788 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:04:788 Team/(27728:27728): Se intentará conectar con Broker
+[DEBUG] 22:05:04:788 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:04:788 Team/(27728:27728): Se enviará el send para el pokemon Vaporeon
+[DEBUG] 22:05:09:794 Team/(27728:27728): Pokemon requested: Vaporeon
+[DEBUG] 22:05:09:794 Team/(27728:27728): Se solicitará el pokemon Jolteon
+[DEBUG] 22:05:09:794 Team/(27728:27728): IP y puerto configurado
+[DEBUG] 22:05:09:794 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:09:794 Team/(27728:27728): Se intentará conectar con Broker
+[DEBUG] 22:05:09:794 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:09:794 Team/(27728:27728): Se enviará el send para el pokemon Jolteon
+[DEBUG] 22:05:14:796 Team/(27728:27728): Pokemon requested: Jolteon
+[DEBUG] 22:05:14:796 Team/(27728:27728): Se solicitará el pokemon Flareon
+[DEBUG] 22:05:14:796 Team/(27728:27728): IP y puerto configurado
+[DEBUG] 22:05:14:796 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:14:796 Team/(27728:27728): Se intentará conectar con Broker
+[DEBUG] 22:05:14:797 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:14:797 Team/(27728:27728): Se enviará el send para el pokemon Flareon
+[INFO] 22:05:14:798 Team/(27728:27776): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Jolteon, cantidad de ubicaciones: 1, correlation id: 12
+[ERROR] 22:05:14:798 Team/(27728:27776): valores: available count= 0, valores: ammount =1
+[DEBUG] 22:05:14:798 Team/(27728:27776): Se procesó el mensaje
+[DEBUG] 22:05:19:799 Team/(27728:27728): Pokemon requested: Flareon
+[DEBUG] 22:05:19:799 Team/(27728:27728): Se solicitará el pokemon Umbreon
+[DEBUG] 22:05:19:799 Team/(27728:27728): IP y puerto configurado
+[DEBUG] 22:05:19:799 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:19:799 Team/(27728:27728): Se intentará conectar con Broker
+[DEBUG] 22:05:19:799 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:19:799 Team/(27728:27728): Se enviará el send para el pokemon Umbreon
+[INFO] 22:05:19:804 Team/(27728:27792): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Flareon, cantidad de ubicaciones: 1, correlation id: 14
+[ERROR] 22:05:19:804 Team/(27728:27792): valores: available count= 1, valores: ammount =1
+[DEBUG] 22:05:19:804 Team/(27728:27792): Se procesó el mensaje
+[DEBUG] 22:05:24:800 Team/(27728:27728): Pokemon requested: Umbreon
+[DEBUG] 22:05:24:800 Team/(27728:27728): Se solicitará el pokemon Espeon
+[DEBUG] 22:05:24:800 Team/(27728:27728): IP y puerto configurado
+[DEBUG] 22:05:24:800 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:24:800 Team/(27728:27728): Se intentará conectar con Broker
+[DEBUG] 22:05:24:800 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:24:800 Team/(27728:27728): Se enviará el send para el pokemon Espeon
+[INFO] 22:05:24:802 Team/(27728:27804): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Umbreon, cantidad de ubicaciones: 0, correlation id: 15
+[DEBUG] 22:05:24:802 Team/(27728:27804): Se procesó el mensaje
+[DEBUG] 22:05:29:801 Team/(27728:27728): Pokemon requested: Espeon
+[DEBUG] 22:05:29:801 Team/(27728:27728): IP 127.0.0.1 y puerto 5002 configurado
+[DEBUG] 22:05:29:801 Team/(27728:27728): Socket configurado
+[DEBUG] 22:05:29:801 Team/(27728:27728): La conexión fue realizada
+[DEBUG] 22:05:29:801 Team/(27728:27808): a. Comparo: Jolteon Vaporeon
+[DEBUG] 22:05:29:801 Team/(27728:27808): a. Comparo: Jolteon Jolteon
+[DEBUG] 22:05:29:801 Team/(27728:27808): selectedMissingPokemonCount: 1
+[DEBUG] 22:05:29:801 Team/(27728:27808): Before removeMessageAppeared: availablePokemonCount: 2
+[DEBUG] 22:05:29:801 Team/(27728:27808): After removeMessageAppeared: availablePokemonCount: 1
+[INFO] 22:05:29:801 Team/(27728:27808): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[DEBUG] 22:05:29:801 Team/(27728:27808): a. Comparo: Flareon Vaporeon
+[DEBUG] 22:05:29:801 Team/(27728:27808): a. Comparo: Flareon Jolteon
+[DEBUG] 22:05:29:801 Team/(27728:27808): a. Comparo: Flareon Flareon
+[DEBUG] 22:05:29:801 Team/(27728:27808): selectedMissingPokemonCount: 1
+[DEBUG] 22:05:29:801 Team/(27728:27808): Before removeMessageAppeared: availablePokemonCount: 1
+[DEBUG] 22:05:29:802 Team/(27728:27808): After removeMessageAppeared: availablePokemonCount: 0
+[INFO] 22:05:29:802 Team/(27728:27808): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 22:05:29:802 Team/(27728:27809): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 22:05:29:803 Team/(27728:27816): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Espeon, cantidad de ubicaciones: 0, correlation id: 17
+[DEBUG] 22:05:29:803 Team/(27728:27816): Se procesó el mensaje
+[INFO] 22:05:34:802 Team/(27728:27809): 2. Se movió al entrenador 0 a la posición 2 2
+[INFO] 22:05:34:802 Team/(27728:27809): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 22:05:34:802 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 22:05:39:803 Team/(27728:27809): 2. Se movió al entrenador 1 a la posición 5 5
+[INFO] 22:05:39:803 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 22:05:39:803 Team/(27728:27809): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[DEBUG] 22:05:39:803 Team/(27728:27809): Se captura el pokemon por falta de conexión con broker
+[INFO] 22:05:39:803 Team/(27728:27809): 1. Se movió al entrenador 0 a la cola Blocked por no poder atrapar más pokemons
+[INFO] 22:05:39:803 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 22:05:44:804 Team/(27728:27809): 2. Se movió al entrenador 1 a la posición 4 5
+[INFO] 22:05:44:804 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 22:05:44:804 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 22:05:49:808 Team/(27728:27809): 2. Se movió al entrenador 1 a la posición 4 6
+[INFO] 22:05:49:808 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 22:05:49:808 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[DEBUG] 22:05:49:808 Team/(27728:27809): Se captura el pokemon por falta de conexión con broker
+[INFO] 22:05:49:808 Team/(27728:27809): 1. Se movió al entrenador 1 a la cola Blocked por no poder atrapar más pokemons
+[DEBUG] 22:09:44:939 Team/(27728:27818): Creando thread Localized Subscriptions Handler
+[DEBUG] 22:09:44:939 Team/(27728:27818): IP y puerto configurado
+[DEBUG] 22:09:44:939 Team/(27728:27818): Socket configurado
+[DEBUG] 22:09:44:939 Team/(27728:27818): Se intentará conectar con Broker
+[DEBUG] 22:09:44:939 Team/(27728:27737): Creando thread Caught Subscriptions Handler
+[DEBUG] 22:09:44:939 Team/(27728:27737): IP y puerto configurado
+[DEBUG] 22:09:44:939 Team/(27728:27737): Socket configurado
+[DEBUG] 22:09:44:939 Team/(27728:27737): Se intentará conectar con Broker
+[DEBUG] 22:09:44:939 Team/(27728:27737): La conexión falló
+[DEBUG] 22:09:44:939 Team/(27728:27741): Creando thread Appeared Subscriptions Handler
+[DEBUG] 22:09:44:939 Team/(27728:27741): IP y puerto configurado
+[DEBUG] 22:09:44:939 Team/(27728:27818): La conexión falló
+[INFO] 22:09:44:939 Team/(27728:27818): 9. Se intentará reconectarse al broker para subscribirse a Localized cada 2000. Se realizará la operación por default
+[INFO] 22:09:44:939 Team/(27728:27737): 9. Se intentará reconectarse al broker para subscribirse a Caught cada 2000. Se realizará la operación por default
+[DEBUG] 22:09:44:940 Team/(27728:27741): Socket configurado
+[DEBUG] 22:09:44:940 Team/(27728:27741): Se intentará conectar con Broker
+[DEBUG] 22:09:44:940 Team/(27728:27741): La conexión falló
+[INFO] 22:09:44:940 Team/(27728:27741): 9. Se intentará reconectarse al broker para subscribirse a Appeared cada 2000. Se realizará la operación por default

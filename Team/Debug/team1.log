@@ -1,0 +1,19 @@
+[INFO] 19:06:55:637 Team/(3269:3273): 11. Conexión insatisfactoria al Broker
+[INFO] 19:06:55:637 Team/(3269:3273): 9. Se intentará reconectarse al broker para subscribirse a Caught cada 2000. Se realizará la operación por default
+[INFO] 19:06:58:637 Team/(3269:3274): 11. Conexión insatisfactoria al Broker
+[INFO] 19:06:58:637 Team/(3269:3274): 9. Se intentará reconectarse al broker para subscribirse a Appeared cada 2000. Se realizará la operación por default
+[INFO] 19:07:01:637 Team/(3269:3275): 11. Conexión insatisfactoria al Broker
+[INFO] 19:07:01:637 Team/(3269:3275): 9. Se intentará reconectarse al broker para subscribirse a Localized cada 2000. Se realizará la operación por default
+[INFO] 19:07:04:637 Team/(3269:3269): 9. Se intentará reconectarse al broker para enviar Get cada 2000. Se realizará la operación por default
+[INFO] 19:07:04:638 Team/(3269:3269): 9. Se intentará reconectarse al broker para enviar Get cada 2000. Se realizará la operación por default
+[INFO] 19:07:04:638 Team/(3269:3269): 9. Se intentará reconectarse al broker para enviar Get cada 2000. Se realizará la operación por default
+[INFO] 19:07:04:638 Team/(3269:3269): 9. Se intentará reconectarse al broker para enviar Get cada 2000. Se realizará la operación por default
+[INFO] 19:40:15:637 Team/(3269:3273): 10. Se intentará reconectarse al Broker
+[INFO] 19:40:15:637 Team/(3269:3434): 11. Conexión insatisfactoria al Broker
+[INFO] 19:40:15:637 Team/(3269:3434): 9. Se intentará reconectarse al broker para subscribirse a Caught cada 2000. Se realizará la operación por default
+[INFO] 19:40:18:638 Team/(3269:3274): 10. Se intentará reconectarse al Broker
+[INFO] 19:40:18:638 Team/(3269:3435): 11. Conexión insatisfactoria al Broker
+[INFO] 19:40:18:638 Team/(3269:3435): 9. Se intentará reconectarse al broker para subscribirse a Appeared cada 2000. Se realizará la operación por default
+[INFO] 19:40:21:637 Team/(3269:3275): 10. Se inicia el intento de reconexión con el Broker
+[INFO] 19:40:21:638 Team/(3269:3436): 11. Conexión insatisfactoria al Broker
+[INFO] 19:40:21:638 Team/(3269:3436): 9. Se intentará reconectarse al broker para subscribirse a Localized cada 2000. Se realizará la operación por default

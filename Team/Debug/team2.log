@@ -1,0 +1,226 @@
+[INFO] 04:06:39:352 Team/(2824:2830): 11. Conexión satisfactoria al Broker
+[INFO] 04:06:42:352 Team/(2824:2845): 11. Conexión satisfactoria al Broker
+[INFO] 04:06:42:355 Team/(2824:2851): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Flareon, ubicación X: 4, ubicación Y: 6
+[INFO] 04:06:42:355 Team/(2824:2853): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Jolteon, ubicación X: 2, ubicación Y: 2
+[INFO] 04:06:42:355 Team/(2824:2855): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Squirtle, ubicación X: 5, ubicación Y: 2
+[INFO] 04:06:45:352 Team/(2824:2860): 11. Conexión satisfactoria al Broker
+[INFO] 04:06:48:357 Team/(2824:2874): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Vaporeon, cantidad de ubicaciones: 0, correlation id: 10
+[INFO] 04:06:52:217 Team/(2824:2885): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Pikachu, cantidad de ubicaciones: 1, correlation id: 9
+[INFO] 04:06:57:222 Team/(2824:2903): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Gengar, cantidad de ubicaciones: 0, correlation id: 15
+[INFO] 04:06:57:222 Team/(2824:2907): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Squirtle, cantidad de ubicaciones: 1, correlation id: 12
+[INFO] 04:06:58:360 Team/(2824:2918): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Jolteon, cantidad de ubicaciones: 1, correlation id: 14
+[INFO] 04:07:02:218 Team/(2824:2929): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Onix, cantidad de ubicaciones: 0, correlation id: 20
+[INFO] 04:07:03:362 Team/(2824:2943): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Onix, cantidad de ubicaciones: 0, correlation id: 22
+[INFO] 04:07:03:363 Team/(2824:2947): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Flareon, cantidad de ubicaciones: 1, correlation id: 18
+[INFO] 04:07:08:367 Team/(2824:2962): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Espeon, cantidad de ubicaciones: 0, correlation id: 25
+[INFO] 04:07:13:355 Team/(2824:2967): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:13:355 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:13:355 Team/(2824:2967): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:18:355 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 5 5
+[INFO] 04:07:18:355 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:18:355 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:23:356 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 2 2
+[INFO] 04:07:23:357 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:23:357 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:27:311 Team/(2824:2982): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 27
+[INFO] 04:07:28:357 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 5
+[INFO] 04:07:28:357 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:28:357 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:28:358 Team/(2824:2968): 3. Operación de atrapar: X=2 Y=2 Jolteon
+[INFO] 04:07:33:359 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Blocked por haber enviado un catch
+[INFO] 04:07:33:359 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:33:460 Team/(2824:3105): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 29
+[INFO] 04:07:38:359 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 6
+[INFO] 04:07:38:359 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:07:38:359 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:07:38:359 Team/(2824:2968): 3. Operación de atrapar: X=4 Y=6 Flareon
+[INFO] 04:07:43:360 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Blocked por haber enviado un catch
+[INFO] 04:07:43:460 Team/(2824:3128): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 31
+[INFO] 04:08:37:321 Team/(2824:3147): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 33
+[INFO] 04:09:09:779 Team/(2824:3186): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Onix, ubicación X: 2, ubicación Y: 8
+[INFO] 04:09:09:783 Team/(2824:3193): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Gengar, ubicación X: 6, ubicación Y: 6
+[INFO] 04:09:09:792 Team/(2824:3200): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Squirtle, ubicación X: 5, ubicación Y: 5
+[INFO] 04:09:09:795 Team/(2824:3207): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Umbreon, ubicación X: 10, ubicación Y: 6
+[INFO] 04:09:09:795 Team/(2824:2967): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:09:795 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:09:800 Team/(2824:3214): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Espeon, ubicación X: 7, ubicación Y: 1
+[INFO] 04:09:09:800 Team/(2824:2967): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:09:802 Team/(2824:3221): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Vaporeon, ubicación X: 4, ubicación Y: 10
+[INFO] 04:09:09:802 Team/(2824:2967): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:14:796 Team/(2824:2968): 2. Se movió al entrenador 2 a la posición 10 9
+[INFO] 04:09:14:796 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:14:796 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:19:797 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 8 2
+[INFO] 04:09:19:797 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:19:797 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:24:797 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 3 9
+[INFO] 04:09:24:797 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:24:797 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:29:797 Team/(2824:2968): 2. Se movió al entrenador 2 a la posición 10 8
+[INFO] 04:09:29:797 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:29:797 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:34:798 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 7 2
+[INFO] 04:09:34:798 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:34:798 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:39:799 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 4 9
+[INFO] 04:09:39:873 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:39:873 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:44:874 Team/(2824:2968): 2. Se movió al entrenador 2 a la posición 10 7
+[INFO] 04:09:44:874 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:44:874 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:44:877 Team/(2824:3232): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 47
+[INFO] 04:09:49:874 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 7 1
+[INFO] 04:09:49:874 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:49:874 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:54:875 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 4 10
+[INFO] 04:09:54:875 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:54:875 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:59:876 Team/(2824:2968): 2. Se movió al entrenador 2 a la posición 10 6
+[INFO] 04:09:59:876 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:09:59:876 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:09:59:876 Team/(2824:2968): 3. Operación de atrapar: X=7 Y=1 Espeon
+[INFO] 04:10:04:877 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Blocked por haber enviado un catch
+[INFO] 04:10:04:877 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:04:877 Team/(2824:2968): 3. Operación de atrapar: X=4 Y=10 Vaporeon
+[INFO] 04:10:05:158 Team/(2824:3247): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 49
+[INFO] 04:10:09:879 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Blocked por haber enviado un catch
+[INFO] 04:10:09:885 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:09:885 Team/(2824:2968): 3. Operación de atrapar: X=10 Y=6 Umbreon
+[INFO] 04:10:09:976 Team/(2824:3262): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 50
+[INFO] 04:10:14:885 Team/(2824:2968): 1. Se movió al entrenador 2 a la cola Blocked por haber enviado un catch
+[INFO] 04:10:14:886 Team/(2824:3269): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 52
+[INFO] 04:10:14:888 Team/(2824:3276): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 53
+[INFO] 04:10:14:888 Team/(2824:2969): 5. Inicio de algortimo de detección de deadlock
+[INFO] 04:10:14:888 Team/(2824:2969): 6. Deadlocks detectados: 5
+[INFO] 04:10:14:888 Team/(2824:2969): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:14:888 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:19:888 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 3 2
+[INFO] 04:10:19:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:19:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:24:889 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 2
+[INFO] 04:10:24:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:24:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:29:889 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 3
+[INFO] 04:10:29:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:29:889 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:34:890 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 4
+[INFO] 04:10:34:890 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:34:890 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:39:890 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 5
+[INFO] 04:10:39:890 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:39:890 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:44:891 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 6
+[INFO] 04:10:44:891 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:44:891 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:49:892 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 7
+[INFO] 04:10:49:892 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:49:892 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:54:892 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 8
+[INFO] 04:10:54:893 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:54:893 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:59:893 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 9
+[INFO] 04:10:59:893 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:10:59:893 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:10:59:894 Team/(2824:3288): 7. Llegada de mensaje Caught. Datos: Respuesta de captura: 1, correlation id: 57
+[INFO] 04:11:04:894 Team/(2824:2968): 2. Se movió al entrenador 0 a la posición 4 10
+[INFO] 04:11:04:894 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:04:894 Team/(2824:2968): 1. Se movió al entrenador 0 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:11:29:894 Team/(2824:2968): 4. Se realizó un intercambio entre el entrenador 0 y el entrenador 4
+[INFO] 04:11:29:896 Team/(2824:2969): 1. Se movió al entrenador 0 a la cola Exit por haber finalizado
+[INFO] 04:11:29:898 Team/(2824:3292): 5. Inicio de algortimo de detección de deadlock
+[INFO] 04:11:29:898 Team/(2824:3292): 6. Deadlocks detectados: 5
+[INFO] 04:11:29:899 Team/(2824:3292): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:29:901 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:11:34:903 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 7
+[INFO] 04:11:34:903 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:34:903 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:11:39:904 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 8
+[INFO] 04:11:39:904 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:39:906 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:11:44:908 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 9
+[INFO] 04:11:44:908 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:44:908 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:11:49:908 Team/(2824:2968): 2. Se movió al entrenador 1 a la posición 4 10
+[INFO] 04:11:49:909 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:11:49:909 Team/(2824:2968): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:14:909 Team/(2824:2968): 4. Se realizó un intercambio entre el entrenador 1 y el entrenador 4
+[INFO] 04:12:14:909 Team/(2824:3292): 1. Se movió al entrenador 1 a la cola Exit por haber finalizado
+[INFO] 04:12:14:909 Team/(2824:3295): 5. Inicio de algortimo de detección de deadlock
+[INFO] 04:12:14:909 Team/(2824:3295): 6. Deadlocks detectados: 5
+[INFO] 04:12:14:909 Team/(2824:3295): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:14:909 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:19:910 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 8 1
+[INFO] 04:12:19:910 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:19:910 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:24:911 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 9 1
+[INFO] 04:12:24:911 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:24:911 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:29:911 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 1
+[INFO] 04:12:29:912 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:29:912 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:34:913 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 2
+[INFO] 04:12:34:913 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:34:915 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:39:917 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 3
+[INFO] 04:12:39:917 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:39:917 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:44:918 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 4
+[INFO] 04:12:44:918 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:44:918 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:49:919 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 5
+[INFO] 04:12:49:919 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:49:919 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:12:54:919 Team/(2824:2968): 2. Se movió al entrenador 3 a la posición 10 6
+[INFO] 04:12:54:920 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:12:54:920 Team/(2824:2968): 1. Se movió al entrenador 3 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:19:920 Team/(2824:2968): 4. Se realizó un intercambio entre el entrenador 3 y el entrenador 2
+[INFO] 04:13:19:920 Team/(2824:3295): 1. Se movió al entrenador 3 a la cola Exit por haber finalizado
+[INFO] 04:13:19:920 Team/(2824:3297): 5. Inicio de algortimo de detección de deadlock
+[INFO] 04:13:19:920 Team/(2824:3297): 6. Deadlocks detectados: 5
+[INFO] 04:13:19:920 Team/(2824:3297): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:19:920 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:24:921 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 5 10
+[INFO] 04:13:24:921 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:24:921 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:29:922 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 6 10
+[INFO] 04:13:29:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:29:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:34:922 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 7 10
+[INFO] 04:13:34:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:34:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:39:922 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 8 10
+[INFO] 04:13:39:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:39:922 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:44:922 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 9 10
+[INFO] 04:13:44:923 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:44:923 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:49:923 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 10 10
+[INFO] 04:13:49:923 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:49:923 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:54:924 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 10 9
+[INFO] 04:13:54:924 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:54:924 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:13:59:924 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 10 8
+[INFO] 04:13:59:924 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:13:59:924 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:14:04:925 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 10 7
+[INFO] 04:14:04:925 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:14:04:925 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:14:09:925 Team/(2824:2968): 2. Se movió al entrenador 4 a la posición 10 6
+[INFO] 04:14:09:925 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 04:14:09:925 Team/(2824:2968): 1. Se movió al entrenador 4 a la cola Exec por haber haber sido planificado por el algoritmo RR
+[INFO] 04:14:34:925 Team/(2824:2968): 4. Se realizó un intercambio entre el entrenador 4 y el entrenador 2
+[INFO] 04:14:34:927 Team/(2824:3297): 1. Se movió al entrenador 4 a la cola Exit por haber finalizado
+[INFO] 04:14:34:928 Team/(2824:3297): 1. Se movió al entrenador 2 a la cola Exit por haber finalizado
+[ERROR] 04:14:34:929 Team/(2824:2970): ------------Fin del proceso----------
+[ERROR] 04:14:34:930 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales: 85
+[ERROR] 04:14:34:931 Team/(2824:2970): 8. Cantidad de cambios de contesto realizados: 55
+[ERROR] 04:14:34:931 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales por entrenador: Trainer 0 -> 16
+[ERROR] 04:14:34:933 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales por entrenador: Trainer 1 -> 12
+[ERROR] 04:14:34:935 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales por entrenador: Trainer 3 -> 16
+[ERROR] 04:14:34:936 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales por entrenador: Trainer 4 -> 18
+[ERROR] 04:14:34:937 Team/(2824:2970): 8. Cantidad de ciclos de CPU totales por entrenador: Trainer 2 -> 4
+[INFO] 04:14:34:938 Team/(2824:3299): 5. Inicio de algortimo de detección de deadlock
+[INFO] 04:14:34:939 Team/(2824:3299): 6. Deadlocks detectados: 5
+[ERROR] 04:14:34:940 Team/(2824:2970): 8. Deadlocks producidos: 5
+[ERROR] 04:14:34:941 Team/(2824:2970): 8. Deadlocks resueltos: 5

@@ -1,0 +1,556 @@
+[DEBUG] 15:36:16:4 Team/(5138:5138): 1. Finaliza creación de config y logger
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Comienza lectura de config de broker
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Se leyó el puerto: 6009
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Finaliza lectura de config de broker
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Comienza lectura de config de teamAttr
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Se leyó el puerto: 45678
+[DEBUG] 15:36:16:4 Team/(5138:5138): 2. Finaliza lectura de config de teamAttr
+[DEBUG] 15:36:16:4 Team/(5138:5138): 3. Comienza lectura de config de scheduler
+[DEBUG] 15:36:16:4 Team/(5138:5138): 3. No se reconoce el algoritmo de planificación RR
+[DEBUG] 15:36:16:4 Team/(5138:5138): 3. Se leyó el quantum: 2
+[DEBUG] 15:36:16:4 Team/(5138:5138): 3. Se leyó la estimación inicial: 0
+[DEBUG] 15:36:16:4 Team/(5138:5138): 3. Finaliza lectura de config de scheduler
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4. Se contaron 3 entrenadores
+[DEBUG] 15:36:16:4 Team/(5138:5138): 5.Se alocó memoria para el array de threads
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4. Comienza lectura de parámetros de entrenador
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4. Finalizó la carga de config de entrenadores
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4. Se alocó memoria para el array de parametros de entrenadore
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4. Comienza el proceso de carga de atributos en struc
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4.1. Comienza el proceso de carga de posición de entrenadores
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4.1. Finaliza el proceso de carga de posición de entrenadores
+[DEBUG] 15:36:16:4 Team/(5138:5138): 4.2. Comienza el proceso de carga de pokemons de entrenadores
+[DEBUG] 15:36:16:5 Team/(5138:5138): 4.3. Comienza el proceso de carga de objetivos de entrenadores
+[DEBUG] 15:36:16:5 Team/(5138:5138): 4.3. Finaliza el proceso de carga de objetivos de entrenadores
+[DEBUG] 15:36:16:5 Team/(5138:5138): 4. Finalizó el proceso de carga de atributos
+[DEBUG] 15:36:16:5 Team/(5138:5138): 5.Comienza el proceso de creación de threads
+[DEBUG] 15:36:16:5 Team/(5138:5138): Creando el entrenador 0
+[DEBUG] 15:36:16:6 Team/(5138:5138): 5. Se creó un entrenador
+[DEBUG] 15:36:16:6 Team/(5138:5138): Creando el entrenador 1
+[DEBUG] 15:36:16:6 Team/(5138:5138): 5. Se creó un entrenador
+[DEBUG] 15:36:16:6 Team/(5138:5138): Creando el entrenador 2
+[DEBUG] 15:36:16:7 Team/(5138:5138): 5. Se creó un entrenador
+[DEBUG] 15:36:16:7 Team/(5138:5138): 5. Terminó el proceso de creación de threads
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 0, objetivo: 0, Agregar objetivo: Pikachu en registro 0, cantidad total 1
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 0, objetivo: 1, Agregar objetivo: Pikachu en registro 0, cantidad total 2
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 0, objetivo: 2, Agregar objetivo: Squirtle en registro 1, cantidad total 1
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 0, objetivo: 3, Agregar objetivo: Pidgey en registro 2, cantidad total 1
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 1, objetivo: 0, Agregar objetivo: Pikachu en registro 0, cantidad total 3
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 1, objetivo: 1, Agregar objetivo: Charmander en registro 3, cantidad total 1
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 1, objetivo: 2, Agregar objetivo: Charmander en registro 3, cantidad total 2
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 2, objetivo: 0, Agregar objetivo: Squirtle en registro 1, cantidad total 2
+[DEBUG] 15:36:16:7 Team/(5138:5138): add Entrenador 2, objetivo: 1, Agregar objetivo: Bulbasaur en registro 4, cantidad total 1
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 0, objetivo entrenador: 0 vs objetivo lista: 0, Nombre: Pikachu
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 0, objetivo entrenador: 1 vs objetivo lista: 1, Nombre: Squirtle
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 0, objetivo entrenador: 2 vs objetivo lista: 2, Nombre: Pidgey
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 1, objetivo entrenador: 0 vs objetivo lista: 1, Nombre: Squirtle
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 1, objetivo entrenador: 1 vs objetivo lista: 1, Nombre: Charmander
+[DEBUG] 15:36:16:7 Team/(5138:5138): diff Entrenador 2, objetivo entrenador: 0 vs objetivo lista: 2, Nombre: Bulbasaur
+[DEBUG] 15:36:16:7 Team/(5138:5138): El objetivo global consta de 3 pokemons
+[DEBUG] 15:36:16:7 Team/(5138:5138): El objetivo global consta de 2 registros
+[DEBUG] 15:36:16:7 Team/(5138:5138): Registro 0: 2 Pikachu
+[DEBUG] 15:36:16:7 Team/(5138:5138): Registro 1: 1 Charmander
+[DEBUG] 15:36:16:7 Team/(5138:5151): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:36:16:7 Team/(5138:5151): IP y puerto configurado
+[DEBUG] 15:36:16:7 Team/(5138:5151): Socket configurado
+[DEBUG] 15:36:16:7 Team/(5138:5151): Se intentará conectar con Broker
+[DEBUG] 15:36:16:7 Team/(5138:5151): La conexión falló
+[DEBUG] 15:36:16:7 Team/(5138:5151): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:36:16:8 Team/(5138:5152): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:36:16:8 Team/(5138:5152): IP y puerto configurado
+[DEBUG] 15:36:16:8 Team/(5138:5152): Socket configurado
+[DEBUG] 15:36:16:8 Team/(5138:5152): Se intentará conectar con Broker
+[DEBUG] 15:36:16:8 Team/(5138:5152): La conexión falló
+[DEBUG] 15:36:16:8 Team/(5138:5152): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:36:16:8 Team/(5138:5138): Se solicitarán 2 pokemons
+[DEBUG] 15:36:16:8 Team/(5138:5138): Se solicitará el pokemon Pikachu
+[DEBUG] 15:36:16:8 Team/(5138:5138): IP y puerto configurado
+[DEBUG] 15:36:16:8 Team/(5138:5138): Socket configurado
+[DEBUG] 15:36:16:8 Team/(5138:5138): Se intentará conectar con Broker
+[DEBUG] 15:36:16:8 Team/(5138:5138): La conexión falló
+[DEBUG] 15:36:16:8 Team/(5138:5138): Se solicitará el pokemon Charmander
+[DEBUG] 15:36:16:8 Team/(5138:5138): IP y puerto configurado
+[DEBUG] 15:36:16:8 Team/(5138:5138): Socket configurado
+[DEBUG] 15:36:16:8 Team/(5138:5138): Se intentará conectar con Broker
+[DEBUG] 15:36:16:8 Team/(5138:5138): La conexión falló
+[DEBUG] 15:36:16:9 Team/(5138:5153): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:36:16:9 Team/(5138:5153): IP y puerto configurado
+[DEBUG] 15:36:16:9 Team/(5138:5153): Socket configurado
+[DEBUG] 15:36:16:9 Team/(5138:5153): Se intentará conectar con Broker
+[DEBUG] 15:36:16:9 Team/(5138:5153): La conexión falló
+[DEBUG] 15:36:16:9 Team/(5138:5153): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:36:16:9 Team/(5138:5138): se iniciará el aceptamiento de mensajes de la gameboy, fiera
+[DEBUG] 15:36:16:9 Team/(5138:5138): IP 127.0.0.1 y puerto 45678 configurado
+[DEBUG] 15:36:16:9 Team/(5138:5138): Socket configurado
+[DEBUG] 15:36:16:9 Team/(5138:5138): La conexión fue realizada
+[DEBUG] 15:36:16:9 Team/(5138:5138): se inició el server
+[DEBUG] 15:36:28:758 Team/(5138:5154): Se comienza a planificar
+[DEBUG] 15:39:36:9 Team/(5138:5206): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:39:36:11 Team/(5138:5206): IP y puerto configurado
+[DEBUG] 15:39:36:11 Team/(5138:5206): Socket configurado
+[DEBUG] 15:39:36:11 Team/(5138:5206): Se intentará conectar con Broker
+[DEBUG] 15:39:36:11 Team/(5138:5206): La conexión falló
+[DEBUG] 15:39:36:11 Team/(5138:5206): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:39:36:11 Team/(5138:5207): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:39:36:11 Team/(5138:5207): IP y puerto configurado
+[DEBUG] 15:39:36:11 Team/(5138:5207): Socket configurado
+[DEBUG] 15:39:36:11 Team/(5138:5207): Se intentará conectar con Broker
+[DEBUG] 15:39:36:11 Team/(5138:5207): La conexión falló
+[DEBUG] 15:39:36:11 Team/(5138:5207): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:39:36:13 Team/(5138:5208): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:39:36:13 Team/(5138:5208): IP y puerto configurado
+[DEBUG] 15:39:36:13 Team/(5138:5208): Socket configurado
+[DEBUG] 15:39:36:13 Team/(5138:5208): Se intentará conectar con Broker
+[DEBUG] 15:39:36:13 Team/(5138:5208): La conexión falló
+[DEBUG] 15:39:36:13 Team/(5138:5208): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:42:56:13 Team/(5138:5288): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:42:56:13 Team/(5138:5288): IP y puerto configurado
+[DEBUG] 15:42:56:13 Team/(5138:5288): Socket configurado
+[DEBUG] 15:42:56:13 Team/(5138:5288): Se intentará conectar con Broker
+[DEBUG] 15:42:56:13 Team/(5138:5288): La conexión falló
+[DEBUG] 15:42:56:13 Team/(5138:5288): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:42:56:13 Team/(5138:5289): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:42:56:23 Team/(5138:5289): IP y puerto configurado
+[DEBUG] 15:42:56:23 Team/(5138:5289): Socket configurado
+[DEBUG] 15:42:56:24 Team/(5138:5289): Se intentará conectar con Broker
+[DEBUG] 15:42:56:24 Team/(5138:5291): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:42:56:24 Team/(5138:5291): IP y puerto configurado
+[DEBUG] 15:42:56:24 Team/(5138:5291): Socket configurado
+[DEBUG] 15:42:56:24 Team/(5138:5291): Se intentará conectar con Broker
+[DEBUG] 15:42:56:24 Team/(5138:5289): La conexión falló
+[DEBUG] 15:42:56:24 Team/(5138:5291): La conexión falló
+[DEBUG] 15:42:56:24 Team/(5138:5291): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:42:56:24 Team/(5138:5289): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:46:16:20 Team/(5138:5416): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:46:16:20 Team/(5138:5416): IP y puerto configurado
+[DEBUG] 15:46:16:20 Team/(5138:5416): Socket configurado
+[DEBUG] 15:46:16:20 Team/(5138:5416): Se intentará conectar con Broker
+[DEBUG] 15:46:16:21 Team/(5138:5416): La conexión falló
+[DEBUG] 15:46:16:21 Team/(5138:5416): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:46:16:26 Team/(5138:5420): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:46:16:26 Team/(5138:5419): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:46:16:26 Team/(5138:5420): IP y puerto configurado
+[DEBUG] 15:46:16:26 Team/(5138:5420): Socket configurado
+[DEBUG] 15:46:16:26 Team/(5138:5420): Se intentará conectar con Broker
+[DEBUG] 15:46:16:26 Team/(5138:5419): IP y puerto configurado
+[DEBUG] 15:46:16:26 Team/(5138:5419): Socket configurado
+[DEBUG] 15:46:16:26 Team/(5138:5419): Se intentará conectar con Broker
+[DEBUG] 15:46:16:26 Team/(5138:5419): La conexión falló
+[DEBUG] 15:46:16:26 Team/(5138:5419): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:46:16:26 Team/(5138:5420): La conexión falló
+[DEBUG] 15:46:16:26 Team/(5138:5420): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:49:36:22 Team/(5138:5556): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:49:36:23 Team/(5138:5556): IP y puerto configurado
+[DEBUG] 15:49:36:23 Team/(5138:5556): Socket configurado
+[DEBUG] 15:49:36:23 Team/(5138:5556): Se intentará conectar con Broker
+[DEBUG] 15:49:36:24 Team/(5138:5556): La conexión falló
+[DEBUG] 15:49:36:24 Team/(5138:5556): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:49:36:31 Team/(5138:5559): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:49:36:31 Team/(5138:5559): IP y puerto configurado
+[DEBUG] 15:49:36:31 Team/(5138:5560): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:49:36:31 Team/(5138:5560): IP y puerto configurado
+[DEBUG] 15:49:36:31 Team/(5138:5560): Socket configurado
+[DEBUG] 15:49:36:32 Team/(5138:5559): Socket configurado
+[DEBUG] 15:49:36:32 Team/(5138:5560): Se intentará conectar con Broker
+[DEBUG] 15:49:36:32 Team/(5138:5559): Se intentará conectar con Broker
+[DEBUG] 15:49:36:33 Team/(5138:5560): La conexión falló
+[DEBUG] 15:49:36:33 Team/(5138:5560): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:49:36:33 Team/(5138:5559): La conexión falló
+[DEBUG] 15:49:36:33 Team/(5138:5559): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:52:56:25 Team/(5138:5626): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:52:56:26 Team/(5138:5626): IP y puerto configurado
+[DEBUG] 15:52:56:26 Team/(5138:5626): Socket configurado
+[DEBUG] 15:52:56:26 Team/(5138:5626): Se intentará conectar con Broker
+[DEBUG] 15:52:56:26 Team/(5138:5626): La conexión falló
+[DEBUG] 15:52:56:26 Team/(5138:5626): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:52:56:35 Team/(5138:5627): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:52:56:35 Team/(5138:5627): IP y puerto configurado
+[DEBUG] 15:52:56:35 Team/(5138:5627): Socket configurado
+[DEBUG] 15:52:56:35 Team/(5138:5627): Se intentará conectar con Broker
+[DEBUG] 15:52:56:35 Team/(5138:5628): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:52:56:35 Team/(5138:5628): IP y puerto configurado
+[DEBUG] 15:52:56:35 Team/(5138:5628): Socket configurado
+[DEBUG] 15:52:56:35 Team/(5138:5628): Se intentará conectar con Broker
+[DEBUG] 15:52:56:35 Team/(5138:5628): La conexión falló
+[DEBUG] 15:52:56:35 Team/(5138:5628): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:52:56:35 Team/(5138:5627): La conexión falló
+[DEBUG] 15:52:56:35 Team/(5138:5627): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:56:16:28 Team/(5138:5691): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:56:16:28 Team/(5138:5691): IP y puerto configurado
+[DEBUG] 15:56:16:28 Team/(5138:5691): Socket configurado
+[DEBUG] 15:56:16:28 Team/(5138:5691): Se intentará conectar con Broker
+[DEBUG] 15:56:16:29 Team/(5138:5691): La conexión falló
+[DEBUG] 15:56:16:29 Team/(5138:5691): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:56:16:47 Team/(5138:5693): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:56:16:47 Team/(5138:5693): IP y puerto configurado
+[DEBUG] 15:56:16:47 Team/(5138:5693): Socket configurado
+[DEBUG] 15:56:16:47 Team/(5138:5693): Se intentará conectar con Broker
+[DEBUG] 15:56:16:47 Team/(5138:5693): La conexión falló
+[DEBUG] 15:56:16:47 Team/(5138:5693): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:56:16:48 Team/(5138:5694): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:56:16:48 Team/(5138:5694): IP y puerto configurado
+[DEBUG] 15:56:16:48 Team/(5138:5694): Socket configurado
+[DEBUG] 15:56:16:48 Team/(5138:5694): Se intentará conectar con Broker
+[DEBUG] 15:56:16:48 Team/(5138:5694): La conexión falló
+[DEBUG] 15:56:16:48 Team/(5138:5694): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 15:59:36:36 Team/(5138:5775): Creando thread Caught Subscriptions Handler
+[DEBUG] 15:59:36:36 Team/(5138:5775): IP y puerto configurado
+[DEBUG] 15:59:36:36 Team/(5138:5775): Socket configurado
+[DEBUG] 15:59:36:36 Team/(5138:5775): Se intentará conectar con Broker
+[DEBUG] 15:59:36:36 Team/(5138:5775): La conexión falló
+[DEBUG] 15:59:36:36 Team/(5138:5775): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 15:59:36:49 Team/(5138:5777): Creando thread Appeared Subscriptions Handler
+[DEBUG] 15:59:36:50 Team/(5138:5777): IP y puerto configurado
+[DEBUG] 15:59:36:50 Team/(5138:5777): Socket configurado
+[DEBUG] 15:59:36:50 Team/(5138:5777): Se intentará conectar con Broker
+[DEBUG] 15:59:36:50 Team/(5138:5777): La conexión falló
+[DEBUG] 15:59:36:50 Team/(5138:5777): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 15:59:36:52 Team/(5138:5778): Creando thread Localized Subscriptions Handler
+[DEBUG] 15:59:36:52 Team/(5138:5778): IP y puerto configurado
+[DEBUG] 15:59:36:52 Team/(5138:5778): Socket configurado
+[DEBUG] 15:59:36:52 Team/(5138:5778): Se intentará conectar con Broker
+[DEBUG] 15:59:36:52 Team/(5138:5778): La conexión falló
+[DEBUG] 15:59:36:52 Team/(5138:5778): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:02:56:56 Team/(5138:5948): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:02:56:56 Team/(5138:5947): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:02:56:57 Team/(5138:5948): IP y puerto configurado
+[DEBUG] 16:02:56:57 Team/(5138:5948): Socket configurado
+[DEBUG] 16:02:56:57 Team/(5138:5948): Se intentará conectar con Broker
+[DEBUG] 16:02:56:57 Team/(5138:5947): IP y puerto configurado
+[DEBUG] 16:02:56:57 Team/(5138:5947): Socket configurado
+[DEBUG] 16:02:56:57 Team/(5138:5947): Se intentará conectar con Broker
+[DEBUG] 16:02:56:57 Team/(5138:5947): La conexión falló
+[DEBUG] 16:02:56:57 Team/(5138:5947): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:02:56:57 Team/(5138:5948): La conexión falló
+[DEBUG] 16:02:56:57 Team/(5138:5948): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:02:56:57 Team/(5138:5946): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:02:56:57 Team/(5138:5946): IP y puerto configurado
+[DEBUG] 16:02:56:57 Team/(5138:5946): Socket configurado
+[DEBUG] 16:02:56:57 Team/(5138:5946): Se intentará conectar con Broker
+[DEBUG] 16:02:56:57 Team/(5138:5946): La conexión falló
+[DEBUG] 16:02:56:57 Team/(5138:5946): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:06:16:906 Team/(5138:6190): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:06:16:906 Team/(5138:6190): IP y puerto configurado
+[DEBUG] 16:06:16:906 Team/(5138:6190): Socket configurado
+[DEBUG] 16:06:16:906 Team/(5138:6190): Se intentará conectar con Broker
+[DEBUG] 16:06:16:906 Team/(5138:6190): La conexión falló
+[DEBUG] 16:06:16:906 Team/(5138:6190): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:06:16:906 Team/(5138:6188): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:06:16:906 Team/(5138:6188): IP y puerto configurado
+[DEBUG] 16:06:16:907 Team/(5138:6188): Socket configurado
+[DEBUG] 16:06:16:907 Team/(5138:6188): Se intentará conectar con Broker
+[DEBUG] 16:06:16:907 Team/(5138:6188): La conexión falló
+[DEBUG] 16:06:16:907 Team/(5138:6188): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:06:16:907 Team/(5138:6189): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:06:16:907 Team/(5138:6189): IP y puerto configurado
+[DEBUG] 16:06:16:907 Team/(5138:6189): Socket configurado
+[DEBUG] 16:06:16:907 Team/(5138:6189): Se intentará conectar con Broker
+[DEBUG] 16:06:16:907 Team/(5138:6189): La conexión falló
+[DEBUG] 16:06:16:907 Team/(5138:6189): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:09:36:910 Team/(5138:6399): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:09:36:910 Team/(5138:6399): IP y puerto configurado
+[DEBUG] 16:09:36:910 Team/(5138:6399): Socket configurado
+[DEBUG] 16:09:36:910 Team/(5138:6399): Se intentará conectar con Broker
+[DEBUG] 16:09:36:910 Team/(5138:6399): La conexión falló
+[DEBUG] 16:09:36:911 Team/(5138:6399): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:09:36:911 Team/(5138:6400): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:09:36:911 Team/(5138:6401): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:09:36:911 Team/(5138:6400): IP y puerto configurado
+[DEBUG] 16:09:36:911 Team/(5138:6400): Socket configurado
+[DEBUG] 16:09:36:911 Team/(5138:6400): Se intentará conectar con Broker
+[DEBUG] 16:09:36:911 Team/(5138:6401): IP y puerto configurado
+[DEBUG] 16:09:36:911 Team/(5138:6401): Socket configurado
+[DEBUG] 16:09:36:911 Team/(5138:6401): Se intentará conectar con Broker
+[DEBUG] 16:09:36:911 Team/(5138:6401): La conexión falló
+[DEBUG] 16:09:36:911 Team/(5138:6401): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:09:36:911 Team/(5138:6400): La conexión falló
+[DEBUG] 16:09:36:911 Team/(5138:6400): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:12:56:911 Team/(5138:6426): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:12:56:911 Team/(5138:6426): IP y puerto configurado
+[DEBUG] 16:12:56:911 Team/(5138:6426): Socket configurado
+[DEBUG] 16:12:56:911 Team/(5138:6426): Se intentará conectar con Broker
+[DEBUG] 16:12:56:912 Team/(5138:6426): La conexión falló
+[DEBUG] 16:12:56:912 Team/(5138:6426): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:12:56:912 Team/(5138:6428): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:12:56:912 Team/(5138:6428): IP y puerto configurado
+[DEBUG] 16:12:56:912 Team/(5138:6428): Socket configurado
+[DEBUG] 16:12:56:912 Team/(5138:6428): Se intentará conectar con Broker
+[DEBUG] 16:12:56:912 Team/(5138:6428): La conexión falló
+[DEBUG] 16:12:56:912 Team/(5138:6428): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:12:56:912 Team/(5138:6427): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:12:56:915 Team/(5138:6427): IP y puerto configurado
+[DEBUG] 16:12:56:915 Team/(5138:6427): Socket configurado
+[DEBUG] 16:12:56:915 Team/(5138:6427): Se intentará conectar con Broker
+[DEBUG] 16:12:56:915 Team/(5138:6427): La conexión falló
+[DEBUG] 16:12:56:915 Team/(5138:6427): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:16:16:912 Team/(5138:6545): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:16:16:913 Team/(5138:6545): IP y puerto configurado
+[DEBUG] 16:16:16:913 Team/(5138:6545): Socket configurado
+[DEBUG] 16:16:16:913 Team/(5138:6545): Se intentará conectar con Broker
+[DEBUG] 16:16:16:913 Team/(5138:6545): La conexión falló
+[DEBUG] 16:16:16:913 Team/(5138:6545): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:16:16:915 Team/(5138:6546): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:16:16:915 Team/(5138:6546): IP y puerto configurado
+[DEBUG] 16:16:16:915 Team/(5138:6546): Socket configurado
+[DEBUG] 16:16:16:915 Team/(5138:6546): Se intentará conectar con Broker
+[DEBUG] 16:16:16:915 Team/(5138:6546): La conexión falló
+[DEBUG] 16:16:16:915 Team/(5138:6546): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:16:16:918 Team/(5138:6547): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:16:16:918 Team/(5138:6547): IP y puerto configurado
+[DEBUG] 16:16:16:918 Team/(5138:6547): Socket configurado
+[DEBUG] 16:16:16:918 Team/(5138:6547): Se intentará conectar con Broker
+[DEBUG] 16:16:16:918 Team/(5138:6547): La conexión falló
+[DEBUG] 16:16:16:918 Team/(5138:6547): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:19:36:916 Team/(5138:6595): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:19:36:916 Team/(5138:6595): IP y puerto configurado
+[DEBUG] 16:19:36:916 Team/(5138:6595): Socket configurado
+[DEBUG] 16:19:36:916 Team/(5138:6595): Se intentará conectar con Broker
+[DEBUG] 16:19:36:916 Team/(5138:6595): La conexión falló
+[DEBUG] 16:19:36:916 Team/(5138:6595): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:19:36:922 Team/(5138:6596): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:19:36:922 Team/(5138:6596): IP y puerto configurado
+[DEBUG] 16:19:36:922 Team/(5138:6596): Socket configurado
+[DEBUG] 16:19:36:922 Team/(5138:6596): Se intentará conectar con Broker
+[DEBUG] 16:19:36:922 Team/(5138:6596): La conexión falló
+[DEBUG] 16:19:36:922 Team/(5138:6596): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:19:36:923 Team/(5138:6597): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:19:36:923 Team/(5138:6597): IP y puerto configurado
+[DEBUG] 16:19:36:923 Team/(5138:6597): Socket configurado
+[DEBUG] 16:19:36:923 Team/(5138:6597): Se intentará conectar con Broker
+[DEBUG] 16:19:36:923 Team/(5138:6597): La conexión falló
+[DEBUG] 16:19:36:923 Team/(5138:6597): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:22:56:917 Team/(5138:6698): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:22:56:917 Team/(5138:6698): IP y puerto configurado
+[DEBUG] 16:22:56:917 Team/(5138:6698): Socket configurado
+[DEBUG] 16:22:56:917 Team/(5138:6698): Se intentará conectar con Broker
+[DEBUG] 16:22:56:917 Team/(5138:6698): La conexión falló
+[DEBUG] 16:22:56:917 Team/(5138:6698): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:22:56:924 Team/(5138:6700): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:22:56:924 Team/(5138:6700): IP y puerto configurado
+[DEBUG] 16:22:56:924 Team/(5138:6700): Socket configurado
+[DEBUG] 16:22:56:924 Team/(5138:6700): Se intentará conectar con Broker
+[DEBUG] 16:22:56:924 Team/(5138:6700): La conexión falló
+[DEBUG] 16:22:56:926 Team/(5138:6700): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:22:56:926 Team/(5138:6702): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:22:56:926 Team/(5138:6702): IP y puerto configurado
+[DEBUG] 16:22:56:926 Team/(5138:6702): Socket configurado
+[DEBUG] 16:22:56:926 Team/(5138:6702): Se intentará conectar con Broker
+[DEBUG] 16:22:56:926 Team/(5138:6702): La conexión falló
+[DEBUG] 16:22:56:926 Team/(5138:6702): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:26:16:919 Team/(5138:6887): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:26:16:919 Team/(5138:6887): IP y puerto configurado
+[DEBUG] 16:26:16:919 Team/(5138:6887): Socket configurado
+[DEBUG] 16:26:16:919 Team/(5138:6887): Se intentará conectar con Broker
+[DEBUG] 16:26:16:920 Team/(5138:6887): La conexión falló
+[DEBUG] 16:26:16:920 Team/(5138:6887): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:26:16:928 Team/(5138:6888): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:26:16:928 Team/(5138:6888): IP y puerto configurado
+[DEBUG] 16:26:16:928 Team/(5138:6888): Socket configurado
+[DEBUG] 16:26:16:928 Team/(5138:6888): Se intentará conectar con Broker
+[DEBUG] 16:26:16:928 Team/(5138:6888): La conexión falló
+[DEBUG] 16:26:16:928 Team/(5138:6888): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:26:16:928 Team/(5138:6889): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:26:16:928 Team/(5138:6889): IP y puerto configurado
+[DEBUG] 16:26:16:928 Team/(5138:6889): Socket configurado
+[DEBUG] 16:26:16:928 Team/(5138:6889): Se intentará conectar con Broker
+[DEBUG] 16:26:16:929 Team/(5138:6889): La conexión falló
+[DEBUG] 16:26:16:929 Team/(5138:6889): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:29:36:921 Team/(5138:7097): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:29:36:921 Team/(5138:7097): IP y puerto configurado
+[DEBUG] 16:29:36:921 Team/(5138:7097): Socket configurado
+[DEBUG] 16:29:36:921 Team/(5138:7097): Se intentará conectar con Broker
+[DEBUG] 16:29:36:921 Team/(5138:7097): La conexión falló
+[DEBUG] 16:29:36:921 Team/(5138:7097): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:29:36:931 Team/(5138:7098): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:29:36:931 Team/(5138:7098): IP y puerto configurado
+[DEBUG] 16:29:36:931 Team/(5138:7098): Socket configurado
+[DEBUG] 16:29:36:931 Team/(5138:7098): Se intentará conectar con Broker
+[DEBUG] 16:29:36:931 Team/(5138:7098): La conexión falló
+[DEBUG] 16:29:36:931 Team/(5138:7098): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:29:36:931 Team/(5138:7099): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:29:36:931 Team/(5138:7099): IP y puerto configurado
+[DEBUG] 16:29:36:931 Team/(5138:7099): Socket configurado
+[DEBUG] 16:29:36:931 Team/(5138:7099): Se intentará conectar con Broker
+[DEBUG] 16:29:36:931 Team/(5138:7099): La conexión falló
+[DEBUG] 16:29:36:931 Team/(5138:7099): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:32:56:923 Team/(5138:7152): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:32:56:924 Team/(5138:7152): IP y puerto configurado
+[DEBUG] 16:32:56:924 Team/(5138:7152): Socket configurado
+[DEBUG] 16:32:56:924 Team/(5138:7152): Se intentará conectar con Broker
+[DEBUG] 16:32:56:924 Team/(5138:7152): La conexión falló
+[DEBUG] 16:32:56:924 Team/(5138:7152): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:32:56:932 Team/(5138:7153): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:32:56:933 Team/(5138:7153): IP y puerto configurado
+[DEBUG] 16:32:56:933 Team/(5138:7154): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:32:56:934 Team/(5138:7154): IP y puerto configurado
+[DEBUG] 16:32:56:934 Team/(5138:7154): Socket configurado
+[DEBUG] 16:32:56:934 Team/(5138:7154): Se intentará conectar con Broker
+[DEBUG] 16:32:56:934 Team/(5138:7153): Socket configurado
+[DEBUG] 16:32:56:934 Team/(5138:7153): Se intentará conectar con Broker
+[DEBUG] 16:32:56:934 Team/(5138:7153): La conexión falló
+[DEBUG] 16:32:56:934 Team/(5138:7153): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:32:56:934 Team/(5138:7154): La conexión falló
+[DEBUG] 16:32:56:934 Team/(5138:7154): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:36:16:926 Team/(5138:7246): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:36:16:926 Team/(5138:7246): IP y puerto configurado
+[DEBUG] 16:36:16:926 Team/(5138:7246): Socket configurado
+[DEBUG] 16:36:16:926 Team/(5138:7246): Se intentará conectar con Broker
+[DEBUG] 16:36:16:926 Team/(5138:7246): La conexión falló
+[DEBUG] 16:36:16:926 Team/(5138:7246): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:36:16:935 Team/(5138:7248): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:36:16:936 Team/(5138:7248): IP y puerto configurado
+[DEBUG] 16:36:16:936 Team/(5138:7248): Socket configurado
+[DEBUG] 16:36:16:936 Team/(5138:7248): Se intentará conectar con Broker
+[DEBUG] 16:36:16:936 Team/(5138:7248): La conexión falló
+[DEBUG] 16:36:16:936 Team/(5138:7248): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:36:16:936 Team/(5138:7247): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:36:16:936 Team/(5138:7247): IP y puerto configurado
+[DEBUG] 16:36:16:936 Team/(5138:7247): Socket configurado
+[DEBUG] 16:36:16:936 Team/(5138:7247): Se intentará conectar con Broker
+[DEBUG] 16:36:16:936 Team/(5138:7247): La conexión falló
+[DEBUG] 16:36:16:937 Team/(5138:7247): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:39:36:926 Team/(5138:7392): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:39:36:927 Team/(5138:7392): IP y puerto configurado
+[DEBUG] 16:39:36:927 Team/(5138:7392): Socket configurado
+[DEBUG] 16:39:36:927 Team/(5138:7392): Se intentará conectar con Broker
+[DEBUG] 16:39:36:927 Team/(5138:7392): La conexión falló
+[DEBUG] 16:39:36:927 Team/(5138:7392): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:39:36:937 Team/(5138:7393): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:39:36:938 Team/(5138:7393): IP y puerto configurado
+[DEBUG] 16:39:36:938 Team/(5138:7393): Socket configurado
+[DEBUG] 16:39:36:938 Team/(5138:7393): Se intentará conectar con Broker
+[DEBUG] 16:39:36:938 Team/(5138:7393): La conexión falló
+[DEBUG] 16:39:36:938 Team/(5138:7393): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:39:36:939 Team/(5138:7394): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:39:36:939 Team/(5138:7394): IP y puerto configurado
+[DEBUG] 16:39:36:939 Team/(5138:7394): Socket configurado
+[DEBUG] 16:39:36:939 Team/(5138:7394): Se intentará conectar con Broker
+[DEBUG] 16:39:36:939 Team/(5138:7394): La conexión falló
+[DEBUG] 16:39:36:939 Team/(5138:7394): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:42:56:928 Team/(5138:7483): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:42:56:928 Team/(5138:7483): IP y puerto configurado
+[DEBUG] 16:42:56:929 Team/(5138:7483): Socket configurado
+[DEBUG] 16:42:56:929 Team/(5138:7483): Se intentará conectar con Broker
+[DEBUG] 16:42:56:929 Team/(5138:7483): La conexión falló
+[DEBUG] 16:42:56:929 Team/(5138:7483): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:42:56:939 Team/(5138:7484): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:42:56:940 Team/(5138:7484): IP y puerto configurado
+[DEBUG] 16:42:56:940 Team/(5138:7484): Socket configurado
+[DEBUG] 16:42:56:940 Team/(5138:7484): Se intentará conectar con Broker
+[DEBUG] 16:42:56:940 Team/(5138:7484): La conexión falló
+[DEBUG] 16:42:56:940 Team/(5138:7484): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:42:56:941 Team/(5138:7485): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:42:56:941 Team/(5138:7485): IP y puerto configurado
+[DEBUG] 16:42:56:941 Team/(5138:7485): Socket configurado
+[DEBUG] 16:42:56:941 Team/(5138:7485): Se intentará conectar con Broker
+[DEBUG] 16:42:56:941 Team/(5138:7485): La conexión falló
+[DEBUG] 16:42:56:941 Team/(5138:7485): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:46:16:956 Team/(5138:7549): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:46:16:957 Team/(5138:7548): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:46:16:957 Team/(5138:7549): IP y puerto configurado
+[DEBUG] 16:46:16:957 Team/(5138:7549): Socket configurado
+[DEBUG] 16:46:16:957 Team/(5138:7549): Se intentará conectar con Broker
+[DEBUG] 16:46:16:957 Team/(5138:7548): IP y puerto configurado
+[DEBUG] 16:46:16:957 Team/(5138:7548): Socket configurado
+[DEBUG] 16:46:16:957 Team/(5138:7548): Se intentará conectar con Broker
+[DEBUG] 16:46:16:957 Team/(5138:7548): La conexión falló
+[DEBUG] 16:46:16:957 Team/(5138:7548): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:46:16:957 Team/(5138:7549): La conexión falló
+[DEBUG] 16:46:16:957 Team/(5138:7549): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:46:16:957 Team/(5138:7550): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:46:16:957 Team/(5138:7550): IP y puerto configurado
+[DEBUG] 16:46:16:957 Team/(5138:7550): Socket configurado
+[DEBUG] 16:46:16:957 Team/(5138:7550): Se intentará conectar con Broker
+[DEBUG] 16:46:16:957 Team/(5138:7550): La conexión falló
+[DEBUG] 16:46:16:957 Team/(5138:7550): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:49:36:961 Team/(5138:7638): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:49:36:961 Team/(5138:7638): IP y puerto configurado
+[DEBUG] 16:49:36:961 Team/(5138:7638): Socket configurado
+[DEBUG] 16:49:36:961 Team/(5138:7638): Se intentará conectar con Broker
+[DEBUG] 16:49:36:961 Team/(5138:7638): La conexión falló
+[DEBUG] 16:49:36:961 Team/(5138:7638): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:49:36:961 Team/(5138:7639): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:49:36:961 Team/(5138:7639): IP y puerto configurado
+[DEBUG] 16:49:36:961 Team/(5138:7639): Socket configurado
+[DEBUG] 16:49:36:961 Team/(5138:7639): Se intentará conectar con Broker
+[DEBUG] 16:49:36:961 Team/(5138:7639): La conexión falló
+[DEBUG] 16:49:36:962 Team/(5138:7639): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:49:36:962 Team/(5138:7640): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:49:36:962 Team/(5138:7640): IP y puerto configurado
+[DEBUG] 16:49:36:962 Team/(5138:7640): Socket configurado
+[DEBUG] 16:49:36:962 Team/(5138:7640): Se intentará conectar con Broker
+[DEBUG] 16:49:36:962 Team/(5138:7640): La conexión falló
+[DEBUG] 16:49:36:962 Team/(5138:7640): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:52:56:980 Team/(5138:7682): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:52:56:980 Team/(5138:7682): IP y puerto configurado
+[DEBUG] 16:52:56:980 Team/(5138:7682): Socket configurado
+[DEBUG] 16:52:56:980 Team/(5138:7682): Se intentará conectar con Broker
+[DEBUG] 16:52:56:980 Team/(5138:7682): La conexión falló
+[DEBUG] 16:52:56:980 Team/(5138:7682): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:52:56:982 Team/(5138:7684): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:52:56:982 Team/(5138:7684): IP y puerto configurado
+[DEBUG] 16:52:56:982 Team/(5138:7684): Socket configurado
+[DEBUG] 16:52:56:982 Team/(5138:7684): Se intentará conectar con Broker
+[DEBUG] 16:52:56:982 Team/(5138:7684): La conexión falló
+[DEBUG] 16:52:56:982 Team/(5138:7684): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:52:56:983 Team/(5138:7683): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:52:56:983 Team/(5138:7683): IP y puerto configurado
+[DEBUG] 16:52:56:983 Team/(5138:7683): Socket configurado
+[DEBUG] 16:52:56:983 Team/(5138:7683): Se intentará conectar con Broker
+[DEBUG] 16:52:56:983 Team/(5138:7683): La conexión falló
+[DEBUG] 16:52:56:983 Team/(5138:7683): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:56:16:983 Team/(5138:7729): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:56:16:983 Team/(5138:7729): IP y puerto configurado
+[DEBUG] 16:56:16:983 Team/(5138:7729): Socket configurado
+[DEBUG] 16:56:16:983 Team/(5138:7729): Se intentará conectar con Broker
+[DEBUG] 16:56:16:983 Team/(5138:7729): La conexión falló
+[DEBUG] 16:56:16:983 Team/(5138:7729): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:56:16:984 Team/(5138:7728): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:56:16:984 Team/(5138:7728): IP y puerto configurado
+[DEBUG] 16:56:16:984 Team/(5138:7728): Socket configurado
+[DEBUG] 16:56:16:984 Team/(5138:7728): Se intentará conectar con Broker
+[DEBUG] 16:56:16:984 Team/(5138:7728): La conexión falló
+[DEBUG] 16:56:16:984 Team/(5138:7728): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:56:16:985 Team/(5138:7730): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:56:16:985 Team/(5138:7730): IP y puerto configurado
+[DEBUG] 16:56:16:985 Team/(5138:7730): Socket configurado
+[DEBUG] 16:56:16:985 Team/(5138:7730): Se intentará conectar con Broker
+[DEBUG] 16:56:16:985 Team/(5138:7730): La conexión falló
+[DEBUG] 16:56:16:985 Team/(5138:7730): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 16:59:37:755 Team/(5138:7988): Creando thread Caught Subscriptions Handler
+[DEBUG] 16:59:37:755 Team/(5138:7988): IP y puerto configurado
+[DEBUG] 16:59:37:755 Team/(5138:7988): Socket configurado
+[DEBUG] 16:59:37:755 Team/(5138:7988): Se intentará conectar con Broker
+[DEBUG] 16:59:37:755 Team/(5138:7988): La conexión falló
+[DEBUG] 16:59:37:756 Team/(5138:7990): Creando thread Appeared Subscriptions Handler
+[DEBUG] 16:59:37:756 Team/(5138:7990): IP y puerto configurado
+[DEBUG] 16:59:37:756 Team/(5138:7988): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 16:59:37:756 Team/(5138:7990): Socket configurado
+[DEBUG] 16:59:37:756 Team/(5138:7990): Se intentará conectar con Broker
+[DEBUG] 16:59:37:756 Team/(5138:7990): La conexión falló
+[DEBUG] 16:59:37:756 Team/(5138:7990): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 16:59:37:756 Team/(5138:7989): Creando thread Localized Subscriptions Handler
+[DEBUG] 16:59:37:756 Team/(5138:7989): IP y puerto configurado
+[DEBUG] 16:59:37:756 Team/(5138:7989): Socket configurado
+[DEBUG] 16:59:37:756 Team/(5138:7989): Se intentará conectar con Broker
+[DEBUG] 16:59:37:756 Team/(5138:7989): La conexión falló
+[DEBUG] 16:59:37:756 Team/(5138:7989): Se intentará reconectarse al broker para subscribirse a Localized cada 200
+[DEBUG] 17:02:57:757 Team/(5138:8094): Creando thread Appeared Subscriptions Handler
+[DEBUG] 17:02:57:758 Team/(5138:8093): Creando thread Caught Subscriptions Handler
+[DEBUG] 17:02:57:758 Team/(5138:8094): IP y puerto configurado
+[DEBUG] 17:02:57:758 Team/(5138:8094): Socket configurado
+[DEBUG] 17:02:57:758 Team/(5138:8094): Se intentará conectar con Broker
+[DEBUG] 17:02:57:758 Team/(5138:8093): IP y puerto configurado
+[DEBUG] 17:02:57:758 Team/(5138:8093): Socket configurado
+[DEBUG] 17:02:57:758 Team/(5138:8093): Se intentará conectar con Broker
+[DEBUG] 17:02:57:758 Team/(5138:8093): La conexión falló
+[DEBUG] 17:02:57:758 Team/(5138:8093): Se intentará reconectarse al broker para subscribirse a Caught cada 200
+[DEBUG] 17:02:57:758 Team/(5138:8094): La conexión falló
+[DEBUG] 17:02:57:758 Team/(5138:8094): Se intentará reconectarse al broker para subscribirse a Appeared cada 200
+[DEBUG] 17:02:57:759 Team/(5138:8095): Creando thread Localized Subscriptions Handler
+[DEBUG] 17:02:57:759 Team/(5138:8095): IP y puerto configurado
+[DEBUG] 17:02:57:759 Team/(5138:8095): Socket configurado
+[DEBUG] 17:02:57:759 Team/(5138:8095): Se intentará conectar con Broker
+[DEBUG] 17:02:57:759 Team/(5138:8095): La conexión falló
+[DEBUG] 17:02:57:759 Team/(5138:8095): Se intentará reconectarse al broker para subscribirse a Localized cada 200

@@ -1,0 +1,120 @@
+[DEBUG] 23:08:05:123 Team/(22442:22442): 1. Finaliza creación de config y logger
+[DEBUG] 23:08:05:124 Team/(22442:22442): 2. Comienza lectura de config de broker
+[DEBUG] 23:08:05:124 Team/(22442:22442): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 23:08:05:124 Team/(22442:22442): 2. Se leyó el puerto: 6009
+[DEBUG] 23:08:05:124 Team/(22442:22442): 2. Finaliza lectura de config de broker
+[DEBUG] 23:08:05:124 Team/(22442:22442): 2. Comienza lectura de config de teamAttr
+[DEBUG] 23:08:05:125 Team/(22442:22442): 2. Se leyó la IP: 127.0.0.1
+[DEBUG] 23:08:05:125 Team/(22442:22442): 2. Se leyó el puerto: 5002
+[DEBUG] 23:08:05:125 Team/(22442:22442): 2. Finaliza lectura de config de teamAttr
+[DEBUG] 23:08:05:125 Team/(22442:22442): 3. Comienza lectura de config de scheduler
+[DEBUG] 23:08:05:125 Team/(22442:22442): 3. No se reconoce el algoritmo de planificación FIFO
+[DEBUG] 23:08:05:125 Team/(22442:22442): 3. Se leyó el quantum: 2
+[DEBUG] 23:08:05:125 Team/(22442:22442): 3. Se leyó la estimación inicial: 5
+[DEBUG] 23:08:05:125 Team/(22442:22442): 3. Finaliza lectura de config de scheduler
+[DEBUG] 23:08:05:125 Team/(22442:22442): alpha valor 0.500000
+[DEBUG] 23:08:05:125 Team/(22442:22442): 4. Comienza lectura de parámetros de entrenador
+[DEBUG] 23:08:05:126 Team/(22442:22442): 4. Finalizó la carga de config de entrenadores
+[DEBUG] 23:08:05:126 Team/(22442:22442): 4. Se alocó memoria para el array de parametros de entrenadore
+[DEBUG] 23:08:05:126 Team/(22442:22442): 4. Comienza el proceso de carga de atributos en struc
+[DEBUG] 23:08:05:126 Team/(22442:22442): 4.1. Comienza el proceso de carga de posición de entrenadores
+[DEBUG] 23:08:05:126 Team/(22442:22442): 4.1. Finaliza el proceso de carga de posición de entrenadores
+[DEBUG] 23:08:05:127 Team/(22442:22442): 4.2. Comienza el proceso de carga de pokemons de entrenadores
+[DEBUG] 23:08:05:127 Team/(22442:22442): 4.3. Comienza el proceso de carga de objetivos de entrenadores
+[DEBUG] 23:08:05:127 Team/(22442:22442): 4.3. Finaliza el proceso de carga de objetivos de entrenadores
+[DEBUG] 23:08:05:127 Team/(22442:22442): 4. Finalizó el proceso de carga de atributos
+[DEBUG] 23:08:05:127 Team/(22442:22442): valor del count 3
+[DEBUG] 23:08:05:127 Team/(22442:22442): 5.Comienza el proceso de creación de threads
+[DEBUG] 23:08:05:127 Team/(22442:22442): Creando el entrenador 0
+[DEBUG] 23:08:05:127 Team/(22442:22442): 5. Se creó un entrenador
+[DEBUG] 23:08:05:127 Team/(22442:22442): Creando el entrenador 1
+[DEBUG] 23:08:05:128 Team/(22442:22442): 5. Se creó un entrenador
+[DEBUG] 23:08:05:128 Team/(22442:22442): Creando el entrenador 2
+[DEBUG] 23:08:05:128 Team/(22442:22442): 5. Se creó un entrenador
+[DEBUG] 23:08:05:128 Team/(22442:22442): 5. Terminó el proceso de creación de threads
+[DEBUG] 23:08:05:129 Team/(22442:22446): Creando thread Caught Subscriptions Handler
+[DEBUG] 23:08:05:129 Team/(22442:22446): IP y puerto configurado
+[DEBUG] 23:08:05:129 Team/(22442:22446): Socket configurado
+[DEBUG] 23:08:05:129 Team/(22442:22446): Se intentará conectar con Broker
+[DEBUG] 23:08:05:129 Team/(22442:22446): La conexión fue realizada
+[DEBUG] 23:08:05:129 Team/(22442:22446): Se subscribió a Caught
+[DEBUG] 23:08:08:129 Team/(22442:22458): Creando thread Appeared Subscriptions Handler
+[DEBUG] 23:08:08:129 Team/(22442:22458): IP y puerto configurado
+[DEBUG] 23:08:08:129 Team/(22442:22458): Socket configurado
+[DEBUG] 23:08:08:129 Team/(22442:22458): Se intentará conectar con Broker
+[DEBUG] 23:08:08:129 Team/(22442:22458): La conexión fue realizada
+[DEBUG] 23:08:08:130 Team/(22442:22458): Se subscribió a Appeared
+[DEBUG] 23:08:08:132 Team/(22442:22463): Before AddMessageAppeared: availablePokemonCount: 0
+[INFO] 23:08:08:132 Team/(22442:22463): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Flareon, ubicación X: 4, ubicación Y: 6
+[DEBUG] 23:08:08:132 Team/(22442:22463): After AddMessageAppeared: Pokemon no sirve availablePokemonCount: 0
+[DEBUG] 23:08:08:132 Team/(22442:22463): Se procesó el mensaje
+[DEBUG] 23:08:08:133 Team/(22442:22465): Before AddMessageAppeared: availablePokemonCount: 0
+[INFO] 23:08:08:133 Team/(22442:22465): 7. Llegada de mensaje Appeared. Datos: Nombre del Pokemon: Jolteon, ubicación X: 2, ubicación Y: 2
+[DEBUG] 23:08:08:133 Team/(22442:22465): After AddMessageAppeared: Pokemon no sirve availablePokemonCount: 0
+[DEBUG] 23:08:08:133 Team/(22442:22465): Se procesó el mensaje
+[DEBUG] 23:08:11:135 Team/(22442:22470): Creando thread Localized Subscriptions Handler
+[DEBUG] 23:08:11:138 Team/(22442:22470): IP y puerto configurado
+[DEBUG] 23:08:11:138 Team/(22442:22470): Socket configurado
+[DEBUG] 23:08:11:138 Team/(22442:22470): Se intentará conectar con Broker
+[DEBUG] 23:08:11:138 Team/(22442:22470): La conexión fue realizada
+[DEBUG] 23:08:11:138 Team/(22442:22470): Se subscribió a Localized
+[DEBUG] 23:08:14:135 Team/(22442:22442): Se solicitarán 4 pokemons
+[DEBUG] 23:08:14:138 Team/(22442:22442): Se solicitará el pokemon Pikachu
+[DEBUG] 23:08:14:138 Team/(22442:22442): IP y puerto configurado
+[DEBUG] 23:08:14:138 Team/(22442:22442): Socket configurado
+[DEBUG] 23:08:14:138 Team/(22442:22442): Se intentará conectar con Broker
+[DEBUG] 23:08:14:138 Team/(22442:22442): La conexión fue realizada
+[DEBUG] 23:08:14:138 Team/(22442:22442): Se enviará el send para el pokemon Pikachu
+[DEBUG] 23:08:15:139 Team/(22442:22442): Pokemon requested: Pikachu
+[DEBUG] 23:08:15:139 Team/(22442:22442): Se solicitará el pokemon Squirtle
+[DEBUG] 23:08:15:139 Team/(22442:22442): IP y puerto configurado
+[DEBUG] 23:08:15:139 Team/(22442:22442): Socket configurado
+[DEBUG] 23:08:15:139 Team/(22442:22442): Se intentará conectar con Broker
+[DEBUG] 23:08:15:139 Team/(22442:22442): La conexión fue realizada
+[DEBUG] 23:08:15:140 Team/(22442:22442): Se enviará el send para el pokemon Squirtle
+[DEBUG] 23:08:16:140 Team/(22442:22442): Pokemon requested: Squirtle
+[DEBUG] 23:08:16:140 Team/(22442:22442): Se solicitará el pokemon Gengar
+[DEBUG] 23:08:16:140 Team/(22442:22442): IP y puerto configurado
+[DEBUG] 23:08:16:141 Team/(22442:22442): Socket configurado
+[DEBUG] 23:08:16:141 Team/(22442:22442): Se intentará conectar con Broker
+[DEBUG] 23:08:16:141 Team/(22442:22442): La conexión fue realizada
+[DEBUG] 23:08:16:141 Team/(22442:22442): Se enviará el send para el pokemon Gengar
+[DEBUG] 23:08:17:142 Team/(22442:22442): Pokemon requested: Gengar
+[DEBUG] 23:08:17:143 Team/(22442:22442): Se solicitará el pokemon Onix
+[DEBUG] 23:08:17:143 Team/(22442:22442): IP y puerto configurado
+[DEBUG] 23:08:17:143 Team/(22442:22442): Socket configurado
+[DEBUG] 23:08:17:143 Team/(22442:22442): Se intentará conectar con Broker
+[DEBUG] 23:08:17:144 Team/(22442:22442): La conexión fue realizada
+[DEBUG] 23:08:17:144 Team/(22442:22442): Se enviará el send para el pokemon Onix
+[INFO] 23:08:17:378 Team/(22442:22512): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Pikachu, cantidad de ubicaciones: 1, correlation id: 9
+[DEBUG] 23:08:17:378 Team/(22442:22512): Se procesó el mensaje
+[DEBUG] 23:08:18:145 Team/(22442:22442): Pokemon requested: Onix
+[DEBUG] 23:08:18:145 Team/(22442:22442): IP 127.0.0.1 y puerto 5002 configurado
+[DEBUG] 23:08:18:145 Team/(22442:22442): Socket configurado
+[DEBUG] 23:08:18:145 Team/(22442:22442): La conexión fue realizada
+[INFO] 23:08:18:374 Team/(22442:22525): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Squirtle, cantidad de ubicaciones: 1, correlation id: 10
+[DEBUG] 23:08:18:375 Team/(22442:22525): Se procesó el mensaje
+[INFO] 23:08:19:165 Team/(22442:22532): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Pikachu, cantidad de ubicaciones: 1, correlation id: 11
+[DEBUG] 23:08:19:165 Team/(22442:22518): a. Comparo: Pikachu Pikachu
+[DEBUG] 23:08:19:166 Team/(22442:22518): selectedMissingPokemonCount: 1
+[DEBUG] 23:08:19:167 Team/(22442:22518): Before removeMessageAppeared: availablePokemonCount: 1
+[DEBUG] 23:08:19:167 Team/(22442:22518): After removeMessageAppeared: availablePokemonCount: 0
+[INFO] 23:08:19:167 Team/(22442:22518): 1. Se movió al entrenador 1 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[INFO] 23:08:19:167 Team/(22442:22519): 1. Se movió al entrenador 1 a la cola Exec por haber haber sido planificado por el algoritmo FIFO
+[DEBUG] 23:08:19:167 Team/(22442:22532): Se procesó el mensaje
+[INFO] 23:08:19:375 Team/(22442:22539): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Gengar, cantidad de ubicaciones: 0, correlation id: 12
+[DEBUG] 23:08:19:376 Team/(22442:22539): Se procesó el mensaje
+[INFO] 23:08:20:144 Team/(22442:22545): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Squirtle, cantidad de ubicaciones: 1, correlation id: 13
+[DEBUG] 23:08:20:144 Team/(22442:22518): a. Comparo: Squirtle Pikachu
+[DEBUG] 23:08:20:144 Team/(22442:22518): a. Comparo: Squirtle Squirtle
+[DEBUG] 23:08:20:144 Team/(22442:22518): selectedMissingPokemonCount: 2
+[DEBUG] 23:08:20:144 Team/(22442:22518): c. Comparo: Pikachu Squirtle
+[DEBUG] 23:08:20:144 Team/(22442:22518): Before removeMessageAppeared: availablePokemonCount: 1
+[DEBUG] 23:08:20:144 Team/(22442:22518): After removeMessageAppeared: availablePokemonCount: 0
+[INFO] 23:08:20:144 Team/(22442:22518): 1. Se movió al entrenador 2 a la cola Ready por haber sido planificado por su cercanía con el pokemon
+[DEBUG] 23:08:20:145 Team/(22442:22545): Se procesó el mensaje
+[INFO] 23:08:20:167 Team/(22442:22519): 2. Se movió al entrenador 1 a la posición 3 3
+[INFO] 23:08:20:381 Team/(22442:22549): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Onix, cantidad de ubicaciones: 0, correlation id: 14
+[DEBUG] 23:08:20:381 Team/(22442:22549): Se procesó el mensaje
+[INFO] 23:08:21:146 Team/(22442:22553): 7. Llegada de mensaje Localized. Datos: Nombre del Pokemon: Gengar, cantidad de ubicaciones: 0, correlation id: 15
+[DEBUG] 23:08:21:146 Team/(22442:22553): error en realloc
