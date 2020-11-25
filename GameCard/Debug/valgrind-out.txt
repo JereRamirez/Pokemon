@@ -1,0 +1,441 @@
+==23426== Memcheck, a memory error detector
+==23426== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==23426== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==23426== Command: ./GameCard
+==23426== Parent PID: 10506
+==23426== 
+--23426-- 
+--23426-- Valgrind options:
+--23426--    --leak-check=full
+--23426--    --show-leak-kinds=all
+--23426--    --track-origins=yes
+--23426--    --verbose
+--23426--    --log-file=valgrind-out.txt
+--23426-- Contents of /proc/version:
+--23426--   Linux version 4.4.0-116-generic (buildd@lgw01-amd64-023) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ) #140-Ubuntu SMP Mon Feb 12 21:22:43 UTC 2018
+--23426-- 
+--23426-- Arch and hwcaps: X86, LittleEndian, x86-mmxext-sse1-sse2-sse3-lzcnt
+--23426-- Page sizes: currently 4096, max supported 4096
+--23426-- Valgrind library directory: /usr/lib/valgrind
+--23426-- Reading syms from /lib/i386-linux-gnu/ld-2.23.so
+--23426--   Considering /lib/i386-linux-gnu/ld-2.23.so ..
+--23426--   .. CRC mismatch (computed 596cb2b8 wanted 417b32cc)
+--23426--   Considering /usr/lib/debug/lib/i386-linux-gnu/ld-2.23.so ..
+--23426--   .. CRC is valid
+--23426-- Reading syms from /home/utnso/workspace/tp-2020-1c-MATE-OS/GameCard/Debug/GameCard
+--23426-- Reading syms from /usr/lib/valgrind/memcheck-x86-linux
+--23426--   Considering /usr/lib/valgrind/memcheck-x86-linux ..
+--23426--   .. CRC mismatch (computed 6036da3f wanted 652e483f)
+--23426--    object doesn't have a symbol table
+--23426--    object doesn't have a dynamic symbol table
+--23426-- Scheduler: using generic scheduler lock implementation.
+--23426-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==23426== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-23426-by-utnso-on-???
+==23426== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-23426-by-utnso-on-???
+==23426== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-23426-by-utnso-on-???
+==23426== 
+==23426== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==23426== don't want to do, unless you know exactly what you're doing,
+==23426== or are doing some strange experiment):
+==23426==   /usr/lib/valgrind/../../bin/vgdb --pid=23426 ...command...
+==23426== 
+==23426== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==23426==   /path/to/gdb ./GameCard
+==23426== and then give GDB the following command
+==23426==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=23426
+==23426== --pid is optional if only one valgrind process is running
+==23426== 
+--23426-- REDIR: 0x4018eb0 (ld-linux.so.2:strlen) redirected to 0x380490f2 (???)
+--23426-- REDIR: 0x4018c70 (ld-linux.so.2:index) redirected to 0x380490cd (???)
+--23426-- Reading syms from /usr/lib/valgrind/vgpreload_core-x86-linux.so
+--23426--   Considering /usr/lib/valgrind/vgpreload_core-x86-linux.so ..
+--23426--   .. CRC mismatch (computed 5b95c0c4 wanted 39e79efa)
+--23426--    object doesn't have a symbol table
+--23426-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so
+--23426--   Considering /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so ..
+--23426--   .. CRC mismatch (computed 4d5a1526 wanted 33571d5b)
+--23426--    object doesn't have a symbol table
+==23426== WARNING: new redirection conflicts with existing -- ignoring it
+--23426--     old: 0x04018eb0 (strlen              ) R-> (0000.0) 0x380490f2 ???
+--23426--     new: 0x04018eb0 (strlen              ) R-> (2007.0) 0x0402f410 strlen
+--23426-- Reading syms from /home/utnso/workspace/tp-2020-1c-MATE-OS/SharedLibrary/Debug/libSharedLibrary.so
+--23426-- Reading syms from /lib/i386-linux-gnu/libpthread-2.23.so
+--23426--   Considering /usr/lib/debug/.build-id/12/78da59ecc0791dce5c44d8b8756a0480be3a5b.debug ..
+--23426--   .. build-id is valid
+--23426-- Reading syms from /lib/i386-linux-gnu/libc-2.23.so
+--23426--   Considering /lib/i386-linux-gnu/libc-2.23.so ..
+--23426--   .. CRC mismatch (computed af9c0474 wanted a5de3f2a)
+--23426--   Considering /usr/lib/debug/lib/i386-linux-gnu/libc-2.23.so ..
+--23426--   .. CRC is valid
+--23426-- REDIR: 0x40f24b0 (libc.so.6:strncasecmp) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x40f9140 (libc.so.6:memrchr) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x410bb20 (libc.so.6:wcslen) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x40f1350 (libc.so.6:strstr) redirected to 0x4033700 (strstr)
+--23426-- REDIR: 0x40f07e0 (libc.so.6:__GI_strrchr) redirected to 0x402ee00 (__GI_strrchr)
+--23426-- REDIR: 0x40ebf00 (libc.so.6:malloc) redirected to 0x402c110 (malloc)
+--23426-- REDIR: 0x40ec810 (libc.so.6:calloc) redirected to 0x402e010 (calloc)
+--23426-- REDIR: 0x40f05c0 (libc.so.6:__GI_strlen) redirected to 0x402f390 (__GI_strlen)
+--23426-- REDIR: 0x40f2680 (libc.so.6:__GI_memcpy) redirected to 0x4030fb0 (__GI_memcpy)
+--23426-- REDIR: 0x40f4280 (libc.so.6:strchrnul) redirected to 0x40330b0 (strchrnul)
+--23426-- REDIR: 0x40f20d0 (libc.so.6:__GI_mempcpy) redirected to 0x40332c0 (__GI_mempcpy)
+--23426-- REDIR: 0x40f0580 (libc.so.6:strlen) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x40f9440 (libc.so.6:__strlen_sse2_bsf) redirected to 0x402f370 (strlen)
+--23426-- REDIR: 0x40ec520 (libc.so.6:realloc) redirected to 0x402e250 (realloc)
+--23426-- REDIR: 0x40efae0 (libc.so.6:strcat) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x4104b30 (libc.so.6:__strcat_ssse3) redirected to 0x402f030 (strcat)
+--23426-- REDIR: 0x40ec470 (libc.so.6:free) redirected to 0x402d2f0 (free)
+--23426-- REDIR: 0x40f1c10 (libc.so.6:__GI_memcmp) redirected to 0x4031ef0 (__GI_memcmp)
+--23426-- REDIR: 0x40f41b0 (libc.so.6:__GI___rawmemchr) redirected to 0x4033110 (__GI___rawmemchr)
+--23426-- REDIR: 0x40f0700 (libc.so.6:strncmp) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x41b05c0 (libc.so.6:__strncmp_ssse3) redirected to 0x402fab0 (strncmp)
+--23426-- REDIR: 0x40f1fc0 (libc.so.6:memset) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x41a04d0 (libc.so.6:__memset_sse2) redirected to 0x40327d0 (memset)
+--23426-- REDIR: 0x40eff90 (libc.so.6:strcpy) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x40f9570 (libc.so.6:__strcpy_ssse3) redirected to 0x402f450 (strcpy)
+--23426-- REDIR: 0x40f2610 (libc.so.6:memcpy) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--23426-- REDIR: 0x41a2b70 (libc.so.6:__memcpy_ssse3) redirected to 0x4030cc0 (memcpy)
+==23426== Thread 2:
+==23426== Invalid read of size 4
+==23426==    at 0x403F540: config_has_property (config.c:72)
+==23426==    by 0x804E65E: get_config_value (utils.c:67)
+==23426==    by 0x804C640: read_metadata_file (GameCard.c:1182)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==23426== 
+==23426== 
+==23426== Process terminating with default action of signal 11 (SIGSEGV)
+==23426==  Access not within mapped region at address 0x4
+==23426==    at 0x403F540: config_has_property (config.c:72)
+==23426==    by 0x804E65E: get_config_value (utils.c:67)
+==23426==    by 0x804C640: read_metadata_file (GameCard.c:1182)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426==  If you believe this happened as a result of a stack
+==23426==  overflow in your program's main thread (unlikely but
+==23426==  possible), you can try to increase the size of the
+==23426==  main thread stack using the --main-stacksize= flag.
+==23426==  The main thread stack size used in this run was 8388608.
+==23426== 
+==23426== HEAP SUMMARY:
+==23426==     in use at exit: 1,405 bytes in 37 blocks
+==23426==   total heap usage: 424 allocs, 387 frees, 35,897 bytes allocated
+==23426== 
+==23426== Searching for pointers to 37 not-freed blocks
+==23426== Checked 16,852,056 bytes
+==23426== 
+==23426== Thread 1:
+==23426== 4 bytes in 1 blocks are still reachable in loss record 1 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049879: main (GameCard.c:36)
+==23426== 
+==23426== 4 bytes in 1 blocks are still reachable in loss record 2 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AA51: GameCard_Process_Message_New (GameCard.c:511)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 4 bytes in 1 blocks are definitely lost in loss record 3 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049F17: GameCard_Attend_Gameboy (GameCard.c:192)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are still reachable in loss record 4 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D6B7: DeserializeNewPokemon (serialization.c:308)
+==23426==    by 0x403D5D6: DeserializeMessageContent (serialization.c:273)
+==23426==    by 0x403CB87: RecievePackage (pokeio.c:295)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are still reachable in loss record 5 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403E317: list_create (list.c:27)
+==23426==    by 0x804AA5C: GameCard_Process_Message_New (GameCard.c:512)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are still reachable in loss record 6 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403EE1B: list_create_element (list.c:312)
+==23426==    by 0x403E353: list_add (list.c:34)
+==23426==    by 0x804AA74: GameCard_Process_Message_New (GameCard.c:514)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are still reachable in loss record 7 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AFE7: modify_poke_file (GameCard.c:680)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are still reachable in loss record 8 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x40F02C5: strdup (strdup.c:42)
+==23426==    by 0x403DBBF: dictionary_put (dictionary.c:73)
+==23426==    by 0x804B764: create_poke_semaphore (GameCard.c:872)
+==23426==    by 0x804C8B0: get_poke_semaphore (GameCard.c:1234)
+==23426==    by 0x804C5F7: read_metadata_file (GameCard.c:1176)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are indirectly lost in loss record 9 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403CA38: GetPackage (pokeio.c:200)
+==23426==    by 0x403CAB5: RecievePackage (pokeio.c:275)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are indirectly lost in loss record 10 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D507: DeserializeMessage (serialization.c:250)
+==23426==    by 0x403CB36: RecievePackage (pokeio.c:290)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 8 bytes in 1 blocks are definitely lost in loss record 11 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D69D: DeserializeNewPokemon (serialization.c:306)
+==23426==    by 0x403D5D6: DeserializeMessageContent (serialization.c:273)
+==23426==    by 0x403CB87: RecievePackage (pokeio.c:295)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 9 bytes in 1 blocks are still reachable in loss record 12 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x40F02C5: strdup (strdup.c:42)
+==23426==    by 0x4040120: string_duplicate (string.c:42)
+==23426==    by 0x403FA4D: log_create (log.c:77)
+==23426==    by 0x804E617: iniciar_logger (utils.c:51)
+==23426==    by 0x8049886: main (GameCard.c:40)
+==23426== 
+==23426== 12 bytes in 1 blocks are still reachable in loss record 13 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403F186: bitarray_create_with_mode (bitarray.c:37)
+==23426==    by 0x804AB21: GameCard_Initialize_bitarray (GameCard.c:550)
+==23426==    by 0x8049ECD: GameCard_mountFS (GameCard.c:180)
+==23426==    by 0x8049978: main (GameCard.c:57)
+==23426== 
+==23426== 12 bytes in 1 blocks are still reachable in loss record 14 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AFC4: modify_poke_file (GameCard.c:679)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 15 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403DA89: dictionary_create (dictionary.c:38)
+==23426==    by 0x8049844: main (GameCard.c:22)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 16 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403CB46: RecievePackage (pokeio.c:291)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 17 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D683: DeserializeNewPokemon (serialization.c:302)
+==23426==    by 0x403D5D6: DeserializeMessageContent (serialization.c:273)
+==23426==    by 0x403CB87: RecievePackage (pokeio.c:295)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 18 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AF9E: modify_poke_file (GameCard.c:675)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 19 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804B738: create_poke_semaphore (GameCard.c:870)
+==23426==    by 0x804C8B0: get_poke_semaphore (GameCard.c:1234)
+==23426==    by 0x804C5F7: read_metadata_file (GameCard.c:1176)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 16 bytes in 1 blocks are still reachable in loss record 20 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403E096: dictionary_create_element (dictionary.c:231)
+==23426==    by 0x403DBD1: dictionary_put (dictionary.c:73)
+==23426==    by 0x804B764: create_poke_semaphore (GameCard.c:872)
+==23426==    by 0x804C8B0: get_poke_semaphore (GameCard.c:1234)
+==23426==    by 0x804C5F7: read_metadata_file (GameCard.c:1176)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 20 bytes in 1 blocks are still reachable in loss record 21 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403F9A7: log_create (log.c:54)
+==23426==    by 0x804E617: iniciar_logger (utils.c:51)
+==23426==    by 0x8049886: main (GameCard.c:40)
+==23426== 
+==23426== 23 bytes in 1 blocks are still reachable in loss record 22 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049A24: GameCard_initialize (GameCard.c:91)
+==23426==    by 0x8049965: main (GameCard.c:56)
+==23426== 
+==23426== 24 bytes in 1 blocks are indirectly lost in loss record 23 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D56C: DeserializeMessage (serialization.c:260)
+==23426==    by 0x403CB36: RecievePackage (pokeio.c:290)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 30 bytes in 1 blocks are still reachable in loss record 24 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049A66: GameCard_initialize (GameCard.c:95)
+==23426==    by 0x8049965: main (GameCard.c:56)
+==23426== 
+==23426== 31 bytes in 1 blocks are still reachable in loss record 25 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049B44: GameCard_initialize (GameCard.c:105)
+==23426==    by 0x8049965: main (GameCard.c:56)
+==23426== 
+==23426== 33 bytes in 1 blocks are still reachable in loss record 26 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049AD0: GameCard_initialize (GameCard.c:100)
+==23426==    by 0x8049965: main (GameCard.c:56)
+==23426== 
+==23426== 37 bytes in 1 blocks are still reachable in loss record 27 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AA05: GameCard_Process_Message_New (GameCard.c:504)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 40 bytes in 1 blocks are indirectly lost in loss record 28 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403C9F9: GetPackage (pokeio.c:195)
+==23426==    by 0x403CAB5: RecievePackage (pokeio.c:275)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 48 (16 direct, 32 indirect) bytes in 1 blocks are definitely lost in loss record 29 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403D4F7: DeserializeMessage (serialization.c:249)
+==23426==    by 0x403CB36: RecievePackage (pokeio.c:290)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 50 bytes in 1 blocks are still reachable in loss record 30 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AF44: modify_poke_file (GameCard.c:670)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 56 (8 direct, 48 indirect) bytes in 1 blocks are definitely lost in loss record 31 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403CA20: GetPackage (pokeio.c:198)
+==23426==    by 0x403CAB5: RecievePackage (pokeio.c:275)
+==23426==    by 0x8049F39: GameCard_Attend_Gameboy (GameCard.c:196)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426== 
+==23426== 64 bytes in 1 blocks are still reachable in loss record 32 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x8049A04: GameCard_initialize (GameCard.c:89)
+==23426==    by 0x8049965: main (GameCard.c:56)
+==23426== 
+==23426== 80 bytes in 1 blocks are still reachable in loss record 33 of 36
+==23426==    at 0x402E0B8: calloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x403DAAA: dictionary_create (dictionary.c:40)
+==23426==    by 0x8049844: main (GameCard.c:22)
+==23426== 
+==23426== 128 bytes in 1 blocks are still reachable in loss record 34 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x804AB0A: GameCard_Initialize_bitarray (GameCard.c:549)
+==23426==    by 0x8049ECD: GameCard_mountFS (GameCard.c:180)
+==23426==    by 0x8049978: main (GameCard.c:57)
+==23426== 
+==23426== 272 bytes in 2 blocks are possibly lost in loss record 35 of 36
+==23426==    at 0x402E0B8: calloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x4011726: allocate_dtv (dl-tls.c:322)
+==23426==    by 0x401214B: _dl_allocate_tls (dl-tls.c:539)
+==23426==    by 0x4064CC3: allocate_stack (allocatestack.c:588)
+==23426==    by 0x4064CC3: pthread_create@@GLIBC_2.1 (pthread_create.c:539)
+==23426==    by 0x80499C8: main (GameCard.c:74)
+==23426== 
+==23426== 344 bytes in 1 blocks are still reachable in loss record 36 of 36
+==23426==    at 0x402C17C: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==23426==    by 0x40D9359: __fopen_internal (iofopen.c:69)
+==23426==    by 0x40D941D: fopen@@GLIBC_2.1 (iofopen.c:97)
+==23426==    by 0x4040E10: txt_open_for_append (txt.c:23)
+==23426==    by 0x403F9E7: log_create (log.c:64)
+==23426==    by 0x804E617: iniciar_logger (utils.c:51)
+==23426==    by 0x8049886: main (GameCard.c:40)
+==23426== 
+==23426== LEAK SUMMARY:
+==23426==    definitely lost: 36 bytes in 4 blocks
+==23426==    indirectly lost: 80 bytes in 4 blocks
+==23426==      possibly lost: 272 bytes in 2 blocks
+==23426==    still reachable: 1,017 bytes in 27 blocks
+==23426==         suppressed: 0 bytes in 0 blocks
+==23426== 
+==23426== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)
+==23426== 
+==23426== 1 errors in context 1 of 6:
+==23426== Thread 2:
+==23426== Invalid read of size 4
+==23426==    at 0x403F540: config_has_property (config.c:72)
+==23426==    by 0x804E65E: get_config_value (utils.c:67)
+==23426==    by 0x804C640: read_metadata_file (GameCard.c:1182)
+==23426==    by 0x804B034: modify_poke_file (GameCard.c:687)
+==23426==    by 0x804AA93: GameCard_Process_Message_New (GameCard.c:520)
+==23426==    by 0x8049FA3: GameCard_Process_Gameboy_Message (GameCard.c:223)
+==23426==    by 0x8049F70: GameCard_Attend_Gameboy (GameCard.c:208)
+==23426==    by 0x4064294: start_thread (pthread_create.c:333)
+==23426==    by 0x41620AD: clone (clone.S:114)
+==23426==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==23426== 
+==23426== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)
